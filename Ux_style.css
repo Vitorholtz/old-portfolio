@@ -1,0 +1,734 @@
+
+            
+            body {
+            width: 100%;
+            margin: 0;
+            box-sizing: border-box;
+            font-family: calibri;
+            overflow: auto;    
+            
+            }
+            
+            header {
+        
+            width: 100%;
+            background-color: black;
+            height: 6em;
+            position: relative;;
+    }
+    
+            header:before{
+            content: '';
+            width: 5em;
+            height: 5em;
+            background-color: transparent;
+            position: absolute;
+            bottom:0;
+            left:0;
+        
+             width: 0;
+            height: 0;
+            border-bottom: 30px solid white;
+            border-right: 30px solid transparent;
+    }
+    
+            header img {
+        
+            width: 3.2em;
+            position: absolute;
+            right: 50%;
+            left: 50%;
+            top: 1em;
+    }
+    
+    
+            article {
+                
+                width: 85%;
+                height: auto;
+                margin: 10em auto;
+                display: flex;
+            }
+            
+            .primeirodesenho{
+                
+                width: 90%;
+               
+            } 
+            
+            .primeirodesenho img {
+        
+                width: 100%;     
+            }
+            
+            .logodesc {
+
+                margin: 0 0 0 7em;
+                width: 40%;
+                position: relative;
+            }
+            
+             .logodesc:before {
+                
+                content: "";
+                width: 2px;
+                height: 100%;
+                background-color: #e5ecf0;
+                position: absolute;
+                left: -1em;
+                top: 0;
+            }
+            
+            .logodesc img {
+                
+                width: 60%;
+            }
+            
+            .logodesc p {
+                
+                color: #727D83;
+                text-align: left;
+                font-size: 2em;
+                font-family: calibri;
+            }
+            
+            section {
+                
+                
+                width: 60%;
+                margin: auto;
+                text-align: left;
+            }
+            
+            section h1 {
+                margin: 0;
+            }
+            
+            h1{
+                
+                font-size: 3em;
+                color: #128360;
+                margin-top: 2em;
+               
+            }
+            
+            h2 {
+                
+                font-size: 2em;
+                color: #21AD81;
+                
+                
+            }
+            
+            h3 {
+                
+                font-size: 2em;
+                color: #727D83;
+             
+            }
+            
+            section p{
+                
+                font-size: 1.5em;
+                color: #727D83;
+                
+            }
+            
+             .abordagem, .benchmark, .usuarios, .analise, .idea {
+                
+                bordr: 1px red solid;
+                margin-top: 10em;
+                text-align: center;
+                overflow: hidden;
+           
+            }
+            
+        
+     
+    
+             .abordagem p , .benchmark p, .usuarios p, .analise p, .idea p{
+                
+                 
+                 font-size: 1.5em;
+                 text-align: center;
+                 color: #727D83;
+                 width: 60%;
+                 margin:  1em auto;
+                
+                
+            }
+            
+            .abordagem .logo {
+                
+                width: 8%;
+            }
+            
+            .abordagem .abordagemimg {
+                
+                width: 30%;
+                margin: 3em;
+            }
+            
+            .analise img, .idea img {
+                
+                width: 60%;
+            }
+            
+            .idea img { 
+                
+                width: 50%;
+            
+            }
+            
+            .storyboard {
+                
+                bordr: 1px red solid;
+                display: flex;
+                flex-direction: column;
+            
+                
+
+             
+            }
+            
+            .storyboard img {
+                align-self: center;
+                margin-top: 5em;
+                width: 60%;
+          
+            }
+            
+         
+            
+            .storyboard img:nth-child(2), .storyboard img:nth-child(3), .storyboard img:nth-child(5){
+                
+                width: 35%;
+            }
+            
+            
+          
+            
+            .analise h2:nth-child(10) {
+                
+                font-size: 4em;
+                width: 60%;
+                margin: 6em auto;
+                text-align: left;
+                position: relative;
+            }  
+            
+            .analise h2:nth-child(10):before{ 
+                
+                content: "?";
+                font-size: 10em;
+                color: #E5ECF1;
+                position: absolute;
+                top:-.5em;
+                left: .6em;
+                z-index: -100;
+         
+            }
+            
+            .usuarios h2:nth-child(8), .usuarios h2:nth-child(9)  {
+                
+                font-size: 4em;
+                width: 60%;
+                margin: 4em auto;
+                text-align: left;
+                position: relative;
+            }
+            
+            
+            .usuarios h2:nth-child(8):before, .usuarios h2:nth-child(9):before{ 
+                
+                content: " '' ";
+                font-family: Bebas Kai;
+                font-size: 10em;
+                color: #E5ECF1;
+                position: absolute;
+                top:-.2em;
+                right: 0;
+                z-index: -100;
+              
+         
+            }
+            
+            .benchmark {
+                width: 60%;
+                margin: auto;
+               
+            }
+           
+            
+            .benchcontainer {
+                
+                border: 2px #E5ECF1 solid;
+                width: 40%;
+                height: auto;
+                padding: 1em;
+                margin: 1em;
+                border-radius: 30px 30px 30px 0px;
+                box-shadow: 0px 10px 0px 0px rgba(229,236,241,1);
+                text-align: left;
+                display: inline-block;
+                
+            }
+            
+            .benchcontainer p {
+                
+                width: 100%;
+                font-size: 1.5em;
+                text-align: left;
+            }
+            
+            
+            
+       
+            ul {
+                font-size: 1.5em;
+                color: #727D83;
+               
+                
+            }
+        
+            li {
+                
+                margin-bottom: .5em;
+            }
+            
+                
+            
+            .leftalign {
+                
+                width: 60%;
+                margin: auto;
+                text-align: left;
+            
+            }
+            
+            .personas {
+                
+                width: 100%;
+                height: auto;
+                padding-bottom: 3em;
+                background-color: #e5ecf0;
+                display: flex;
+                justify-content: center;
+            }
+            
+            .personascontainer {
+                
+                width: 50%;
+                height: auto;
+                background-color: white;
+                border-radius: 0 0 30px 30px;
+                position: relative;
+                display: flex;
+                flex-direction: column;
+                
+            }
+
+            .personas .personascontainer .personaimg {  
+
+              border: 0px red solid;
+              box-shadow: 0px 10px 0px 0px rgba(229,236,241,1);
+              width: 100%;
+        
+               
+            }
+
+
+            
+            .sketch {
+                
+                width: 100%;
+                height: auto;
+                padding: 5em 0em;
+                background-color: #ffffff;
+                display: flex;
+                flex-direction: column;
+               
+                
+                
+            }
+            
+              .sketch {
+                  
+                  display: flex;
+           
+            }
+            
+            .sketch img {
+                
+                align-self: center;
+                
+            }
+            
+            
+            .wireframe {
+                
+                display: flex;
+                justify-content: center;
+               
+                
+               
+            }
+            
+            .wireframe a {
+                
+                
+                border: 2px #E5ECF1 solid;
+                padding: 2em;
+                border-radius: 30px 30px 30px 0px;
+                box-shadow: 0px 10px 0px 0px rgba(229,236,241,1);
+                width: 25%;
+                margin: 3em;
+                position: relative;
+   
+            }
+            
+             .wireframe a:nth-child(1):before {
+                
+                
+              content: "Aluno";
+              position: absolute;
+              top: -1.5em;
+              left: 0;
+              right: 0;
+              font-size: 2em;
+              font-weight: bold;     
+              color: #727D83;
+                 
+            }
+            
+             .wireframe a:nth-child(2):before {
+                
+                
+              content: "Professor";
+              position: absolute;
+              top: -1.5em;
+              left: 0;
+              right: 0;
+              font-size: 2em;
+              font-weight: bold;     
+              color: #727D83;
+                 
+            }
+            
+            
+             .wireframe a img{
+                
+                width: 100%;
+              
+            }
+            
+            
+            .prototipo {
+                
+                width: 100%;
+                background-color: #E5ECF1;
+                height: auto;
+                padding: 3em 0em
+                
+            }
+            
+            .protrow1, .protrow2, .protrow3, .protrow4, .protrow5, .protrow6, .protrow7, .protrow8 {
+                
+                bordr: 1px red solid;
+                display: flex;
+                flex-wrap:wrap;
+                justify-content: center;
+                padding: 2em 0em 2em 0em;
+                position: relative;
+                
+            }
+            
+           .protrow2:before, .protrow3:before, .protrow4:before, .protrow5:before, .protrow7:before, .protrow8:before {
+                
+                content: "";
+                height: 1px;
+                width: 5em;
+                background-color: #b9cad3;
+                position: absolute;
+                top:0;
+                
+                
+            }
+            
+            .smartphone {
+                
+                height: 508px; /* 635 */
+                width: 252px;  /* 315 */
+                box-sizing: border-box;
+                background-color: white;
+                background-repeat: no-repeat;
+                background-position: cover;
+                box-shadow: -1px 13px 11px 2px rgba(0,0,0,0.10);
+                border-radius: 20px;
+                margin: 25px;
+            }
+            
+              .desktop {
+                
+                width: 960px;
+                height: 540px;
+                margin: 25px;
+                background-color: white;
+                border-radius: 15px;
+                box-shadow: -1px 13px 11px 2px rgba(0,0,0,0.10);
+            }
+            
+            .prototipo img {
+                
+                 border-radius: 20px;
+                 width:  40%;
+                 box-shadow: -1px 13px 11px 2px rgba(0,0,0,0.10);
+                
+            }
+            
+            .protrow1 .smartphone:nth-child(1) {
+                
+                background-image: url(Imagens_ux/Screens/tela-01.svg);
+            
+            }
+                        
+            
+            .protrow1 .smartphone:nth-child(2) {
+                
+                background-image: url(Imagens_ux/Screens/tela-02.svg);
+            
+            }
+            
+            .protrow2 .smartphone:nth-child(1) {
+                
+                background-image: url(Imagens_ux/Screens/tela-03.svg);
+            
+            }
+            
+            .protrow2 .smartphone:nth-child(2) {
+                
+                background-image: url(Imagens_ux/Screens/tela-04.svg);
+            
+            }
+            
+            .protrow2 .smartphone:nth-child(3) {
+                
+                background-image: url(Imagens_ux/Screens/tela-05.svg);
+            
+            }
+            
+            .protrow2 .smartphone:nth-child(4) {
+                
+                background-image: url(Imagens_ux/Screens/tela-06.svg);
+            
+            }
+            
+            .protrow3 .smartphone:nth-child(1) {
+                
+                background-image: url(Imagens_ux/Screens/tela-07.svg);
+            
+            }
+            
+             .protrow3 .smartphone:nth-child(2) {
+                
+                background-image: url(Imagens_ux/Screens/tela-08.svg);
+            
+            }
+            
+             .protrow3 .smartphone:nth-child(3) {
+                
+                background-image: url(Imagens_ux/Screens/tela-09.svg);
+            
+            }
+            
+             .protrow3 .smartphone:nth-child(4) {
+                
+                background-image: url(Imagens_ux/Screens/tela-10.svg);
+            
+            }
+            
+             .protrow3 .smartphone:nth-child(5) {
+                
+                background-image: url(Imagens_ux/Screens/tela-11.svg);
+            
+            }
+            
+             .protrow4 .smartphone:nth-child(1) {
+               
+                background-image: url(Imagens_ux/Screens/tela-12.svg);
+            
+            }
+            
+            .protrow4 .smartphone:nth-child(2) {
+               
+                background-image: url(Imagens_ux/Screens/tela-13.svg);
+            
+            }
+            
+            .protrow4 .smartphone:nth-child(3) {
+               
+                background-image: url(Imagens_ux/Screens/tela-14.svg);
+            
+            }
+            
+            .protrow5 .smartphone:nth-child(1) {
+               
+                background-image: url(Imagens_ux/Screens/tela-15.svg);
+            
+            }
+            
+            .protrow5 .smartphone:nth-child(2) {
+               
+                background-image: url(Imagens_ux/Screens/tela-16.svg);
+            
+            }
+            
+            .protrow6 .smartphone:nth-child(1) {
+               
+                background-image: url(Imagens_ux/Screens/tela-17.svg);
+            
+            }
+            
+            .protrow6 .smartphone:nth-child(2) {
+               
+                background-image: url(Imagens_ux/Screens/tela-18.svg);
+            
+            }
+            
+             .protrow6 .smartphone:nth-child(3) {
+               
+                background-image: url(Imagens_ux/Screens/tela-19.svg);
+            
+            }
+            
+             .protrow6 .smartphone:nth-child(4) {
+               
+                background-image: url(Imagens_ux/Screens/tela-20.svg);
+            
+            }
+            
+             .protrow6 .smartphone:nth-child(5) {
+               
+                background-image: url(Imagens_ux/Screens/tela-21.svg);
+            
+            }
+            
+             .protrow7 .smartphone:nth-child(1) {
+               
+                background-image: url(Imagens_ux/Screens/tela-22.svg);
+            
+            }
+            
+             .protrow7 .smartphone:nth-child(2) {
+               
+                background-image: url(Imagens_ux/Screens/tela-23.svg);
+            
+            }
+            
+             .protrow8 .desktop:nth-child(1) {
+                
+                background-image: url(Imagens_ux/Screens_Desktop/Desktop-01.svg);
+                    
+            }
+            
+             .protrow8 .desktop:nth-child(2) {
+                
+                background-image: url(Imagens_ux/Screens_Desktop/Desktop-02.svg);
+                    
+            }
+            
+             .protrow8 .desktop:nth-child(3) {
+                
+                background-image: url(Imagens_ux/Screens_Desktop/Desktop-03.svg);
+                    
+            }
+            
+             .protrow8 .desktop:nth-child(4) {
+                
+                background-image: url(Imagens_ux/Screens_Desktop/Desktop-04.svg);
+                    
+            }
+            
+              .protrow8 .desktop:nth-child(5) {
+                
+                background-image: url(Imagens_ux/Screens_Desktop/Desktop-05.svg);
+                    
+            }
+            
+              .protrow8 .desktop:nth-child(6) {
+                
+                background-image: url(Imagens_ux/Screens_Desktop/Desktop-06.svg);
+                    
+            }
+            
+            
+            .idea .moodboard {
+                
+                width: 60%;
+                position: relative;
+                z-index: -11;
+                
+                
+            }
+            
+            .idea .imgunder {
+                
+               
+                position: relative;
+                z-index: -10;
+            
+               
+            }
+
+            .idea .imgunder2 {
+
+                position: relative;
+            }
+
+            .idea .imgunder2 .notebook{
+                
+                width: 25%;
+                position: absolute;
+                transform: rotate(10deg);
+                bottom: 5em;
+                right:-5em;
+               
+            }
+            
+            .idea .imgunder .smartphone2 {
+                
+                width: 20%;
+                position: absolute;
+                bottom: 5em;
+                left: 0;
+                transform: rotate(-10deg) ;
+               
+           
+            }
+            
+            .idea .cores {
+                
+                width: 60%;
+                z-index: 12;
+            }
+            
+            
+            
+            .idea .desenhos {
+                
+                
+                width: 80%;
+            }
+            
+            .idea .personagens {
+                
+                width: 80%;
+            }
+
+            .idea .logobrand {
+
+                width: 60%
+                ;
+            }
+        
+ 
