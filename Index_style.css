@@ -4,6 +4,13 @@
     src: url(Fonts/BebasKai.ttf);
   }
 
+  @font-face {
+      font-family: "AgencyFB";
+      src: url(fonts/AgencyFB.ttf);
+
+
+  }
+
 
     html {
         
@@ -94,7 +101,7 @@
         position: absolute;
         bottom: 0;
         left: 58%;
-        font-family: Agency fb;
+        font-family: "AgencyFB";
     }
     
 
@@ -421,7 +428,7 @@
         right: 0;
         width: 30%;
         font-size: 1.6em;
-        font-family: Agency FB;
+        font-family: "AgencyFB";
         text-align: left; 
         display: block;
         
@@ -609,7 +616,7 @@
         left: 1em;
         width: 30%;
         font-size: 1.6em;
-        font-family: Agency FB;
+        font-family: "AgencyFB";
         text-align: left; 
         
     }
@@ -799,7 +806,7 @@
         color: #c1c1c1;
         font-size: 1.5em;
         margin-top: 1em;
-        font-family: Agency fb;
+        font-family: "AgencyFB";
         width: 50%;
         position: relative;
         
