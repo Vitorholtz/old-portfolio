@@ -136,7 +136,7 @@
             
              .abordagem, .benchmark, .usuarios, .analise, .idea {
                 
-                bordr: 1px red solid;
+                border: 1px red solid;
                 margin-top: 10em;
                 text-align: center;
                 overflow: hidden;
@@ -150,7 +150,7 @@
                 
                  
                  font-size: 1.5em;
-                 text-align: center;
+                 text-align: left;
                  color: #727D83;
                  width: 60%;
                  margin:  1em auto;
@@ -165,7 +165,7 @@
             
             .abordagem .abordagemimg {
                 
-                width: 30%;
+                width: 29%;
                 margin: 3em;
             }
             
@@ -254,7 +254,7 @@
             }
             
             .benchmark {
-                width: 60%;
+                width: 100%;
                 margin: auto;
                
             }
@@ -263,7 +263,7 @@
             .benchcontainer {
                 
                 border: 2px #E5ECF1 solid;
-                width: 40%;
+                width: 30%;
                 height: auto;
                 padding: 1em;
                 margin: 1em;
@@ -318,7 +318,7 @@
             
             .personascontainer {
                 
-                width: 50%;
+                width: 60%;
                 height: auto;
                 background-color: white;
                 border-radius: 0 0 30px 30px;
@@ -738,14 +738,16 @@
                     margin: 0;
                 }
 
+                header::before {
+                    display: none;
+                }
+
     
 
                 article {
 
-                   
                     flex-direction: column-reverse;
-                    align-content: center;
-
+           
                 }
 
                  .primeirodesenho {
@@ -753,17 +755,14 @@
                     width: 100%;
                  }
 
-                .primeirodesenho img {
-
-                   
-                }
-
+               
                 .logodesc {
 
                     width:100%;
                     margin: 0;
                     display: flex;
                     flex-direction: column;
+                    justify-content: center;
                 }
 
                 .logodesc::before {
