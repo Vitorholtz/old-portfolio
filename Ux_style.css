@@ -731,4 +731,65 @@
                 ;
             }
         
- 
+            @media only screen and (max-width: 1300px) {
+
+                body {
+
+                    margin: 0 1em;
+                }
+
+                header{ 
+
+                    display: none;
+                }
+
+
+
+                article {
+
+                    border: 1px red solid;
+                    flex-direction: column-reverse;
+                    align-content: center;
+
+                }
+
+                 .primeirodesenho {
+
+                    width: 100%;
+                 }
+
+                .primeirodesenho img {
+
+                   
+                }
+
+                .logodesc {
+
+                    border: 1px red solid;
+                    width:100%;
+                    margin: 0;
+                    display: flex;
+                    flex-direction: column;
+                }
+
+
+                .logodesc img {
+
+                    width: 40%;
+                    align-self: center;
+
+                }
+
+                section {
+                
+                
+                    width: 100%;
+                    margin: auto;
+                    text-align: left;
+                }
+
+
+
+
+
+        
