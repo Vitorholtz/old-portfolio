@@ -50,7 +50,8 @@
             
             .primeirodesenho{
                 
-                width: 90%;
+                width: 70%;
+                display: flex;
                
             } 
             
@@ -749,11 +750,22 @@
                     overflow: hidden;
            
                 }
-
                  .primeirodesenho {
 
-                    width: 210%;
+                    width: 100%;
+                    flex-direction: column;
                  }
+
+                 .primeirodesenho .maocelular {
+
+                    width: 100%;
+                 }
+
+                 .primeirodesenho .meninacelular {
+
+                    width: 100%;
+                 }
+
 
                
                 .logodesc {
