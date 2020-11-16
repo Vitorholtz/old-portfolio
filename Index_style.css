@@ -1,4 +1,7 @@
 
+ 
+
+
     html {
         
         scroll-behavior: smooth;
@@ -232,7 +235,7 @@
      nav li {
         
        list-style: none;
-       font-family: 'Bebas Neue', cursive;
+       font-family: Bebas Kai ;
        font-size: 4em;
        line-height: 1em;
        letter-spacing: 2px;
@@ -247,7 +250,7 @@
     
       nav li:hover {
         
-        font-family: 'Bebas Neue', cursive;
+       font-family: bebas kai regular;
           
       
        color: white;
@@ -330,7 +333,7 @@
     
       .first-article h1 {
         
-        font-family: 'Bebas Neue', cursive;
+        font-family: Bebas kai;
         font-size: 11em;
         position: absolute;
         top:0;
@@ -361,7 +364,7 @@
     
       .first-article  h2 {
         
-        font-family: 'Bebas Neue', cursive;
+        font-family: Bebas kai;
         font-size: 6em;
         position: absolute;
         top:1.6em;
@@ -377,7 +380,7 @@
     
       .first-article h3 {
         
-        font-family: 'Bebas Neue', cursive;
+        font-family: Bebas kai;
         font-size: 6em;
         position: absolute;
         top:2.4em;
@@ -390,7 +393,7 @@
     
       .first-article h4 {
     
-        font-family: 'Bebas Neue', cursive;
+        font-family: Bebas Kai;
         font-size: 30em;
         position: absolute;
         top: -.2em;
@@ -508,7 +511,7 @@
       color: black;
       font-size: 4em;
       cursor: crosshair;
-      font-family: 'Bebas Neue', cursive;
+      font-family: Bebas Kai;
         
         position: absolute;
         right: 0;
@@ -550,7 +553,7 @@
     
       .second-article h1 {
         
-        font-family: 'Bebas Neue', cursive;
+        font-family: Bebas kai;
         font-size: 11em;
         position: absolute;
         top:0;
@@ -561,7 +564,7 @@
   
       .second-article  h2 {
         
-        font-family: 'Bebas Neue', cursive;
+        font-family: Bebas kai;
         font-size: 6em;
         position: absolute;
         top:1.6em;
@@ -573,7 +576,7 @@
 
       .second-article h3 {
         
-        font-family: 'Bebas Neue', cursive;
+        font-family: Bebas kai;
         font-size: 6em;
         position: absolute;
         top:2.4em;
@@ -584,7 +587,7 @@
     
       .second-article h4 {
     
-        font-family: 'Bebas Neue', cursive;
+        font-family: Bebas Kai;
         font-size: 30em;
         position: absolute;
         top: -.2em;
@@ -680,7 +683,7 @@
       color: black;
       font-size: 4em;
       cursor: crosshair;
-      font-family: 'Bebas Neue', cursive;
+      font-family: Bebas Kai;
         
         position: absolute;
         left: 0;
@@ -779,7 +782,7 @@
     footer h1 {
         
         color: white;
-        font-family: 'Bebas Neue', cursive;
+        font-family: Bebas Kai;
         font-size: 8em;
         display: none;
          
