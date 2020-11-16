@@ -109,7 +109,7 @@
                 font-size: 3em;
                 color: #128360;
                 margin-top: 2em;
-               
+              
             }
             
             h2 {
@@ -134,7 +134,7 @@
                 
             }
             
-             .abordagem, .benchmark, .usuarios, .analise, .idea {
+             .abordagem, .benchmark, .usuarios, .analise, .idea, .style, .usabilidade{
                 
                 bordr: 1px red solid;
                 margin-top: 10em;
@@ -146,7 +146,7 @@
         
      
     
-             .abordagem p , .benchmark p, .usuarios p, .analise p, .idea p{
+             .abordagem p , .benchmark p, .usuarios p, .analise p, .idea p, .style p, .usabilidade p{
                 
                  
                  font-size: 1.5em;
@@ -252,12 +252,28 @@
               
          
             }
+
+            .usuarios img {
+
+                width: 30%;
+                margin: auto;
+                display: block;
+    
+            }
             
             .benchmark {
                 width: 100%;
                 margin: auto;
                
             }
+
+            .benchmark img {
+
+                width: 10%;
+                margin: auto;
+                display: block;
+
+             }
            
             
             .benchcontainer {
@@ -318,7 +334,7 @@
             
             .personascontainer {
                 
-                width: 95%;
+                width: 60%;
                 height: auto;
                 background-color: white;
                 border-radius: 0 0 30px 30px;
@@ -334,7 +350,6 @@
               box-shadow: 0px 10px 0px 0px rgba(229,236,241,1);
               width: 100%;
         
-               
             }
 
 
@@ -428,11 +443,14 @@
                 width: 100%;
                 background-color: #E5ECF1;
                 height: auto;
-                padding: 3em 0em
+                padding: 3em 0em;
+                text-align: center;
+                
                 
             }
+
             
-            .protrow1, .protrow2, .protrow3, .protrow4, .protrow5, .protrow6, .protrow7, .protrow8 {
+            .protrow1, .protrow2, .protrow3, .protrow4, .protrow5, .protrow6, .protrow7{
                 
                 bordr: 1px red solid;
                 display: flex;
@@ -468,23 +486,28 @@
                 margin: 25px;
             }
             
-              .desktop {
-                
-                width: 960px;
-                height: 540px;
-                margin: 25px;
-                background-color: white;
-                border-radius: 15px;
-                box-shadow: -1px 13px 11px 2px rgba(0,0,0,0.10);
-            }
-            
-            .prototipo img {
+            .prototipo .cefr{
                 
                  border-radius: 20px;
-                 width:  40%;
+                 width:  30%;
                  box-shadow: -1px 13px 11px 2px rgba(0,0,0,0.10);
                 
             }
+
+            .protrow8 {
+
+                width: 50%;
+                margin: auto;
+            }
+
+            .protrow8 .desktop{
+
+                margin-top: 1em;
+                background-color: white;
+                border-radius: 10px;
+            }
+
+            
             
             .protrow1 .smartphone:nth-child(1) {
                 
@@ -625,44 +648,10 @@
             
             }
             
-             .protrow8 .desktop:nth-child(1) {
-                
-                background-image: url(Imagens/ScreensDesktop/Desktop-01.svg);
-                    
-            }
-            
-             .protrow8 .desktop:nth-child(2) {
-                
-                background-image: url(Imagens/ScreensDesktop/Desktop-02.svg);
-                    
-            }
-            
-             .protrow8 .desktop:nth-child(3) {
-                
-                background-image: url(Imagens/ScreensDesktop/Desktop-03.svg);
-                    
-            }
-            
-             .protrow8 .desktop:nth-child(4) {
-                
-                background-image: url(Imagens/ScreensDesktop/Desktop-04.svg);
-                    
-            }
-            
-              .protrow8 .desktop:nth-child(5) {
-                
-                background-image: url(Imagens/ScreensDesktop/Desktop-05.svg);
-                    
-            }
-            
-              .protrow8 .desktop:nth-child(6) {
-                
-                background-image: url(Imagens/ScreensDesktop/Desktop-06.svg);
-                    
-            }
+
             
             
-            .idea .moodboard {
+            .style .moodboard {
                 
                 width: 60%;
                 position: relative;
@@ -671,7 +660,7 @@
                 
             }
             
-            .idea .imgunder {
+            .style .imgunder {
                 
                
                 position: relative;
@@ -680,12 +669,12 @@
                
             }
 
-            .idea .imgunder2 {
+            .style .imgunder2 {
 
                 position: relative;
             }
 
-            .idea .imgunder2 .notebook{
+            .style .imgunder2 .notebook{
                 
                 width: 25%;
                 position: absolute;
@@ -695,7 +684,7 @@
                
             }
             
-            .idea .imgunder .smartphone2 {
+            .style .imgunder .smartphone2 {
                 
                 width: 20%;
                 position: absolute;
@@ -706,7 +695,7 @@
            
             }
             
-            .idea .cores {
+            .style .cores {
                 
                 width: 60%;
                 z-index: 12;
@@ -714,24 +703,38 @@
             
             
             
-            .idea .desenhos {
+            .style .desenhos {
                 
                 
                 width: 80%;
             }
             
-            .idea .personagens {
+            .style .personagens {
                 
                 width: 80%;
             }
 
-            .idea .logobrand {
+            .style .logobrand {
 
-                width: 60%
-                ;
+                width: 60%;
             }
+
+            .style .mockup {
+
+                width: 60%;
+
         
-            @media only screen and (max-width: 400px) {
+            }
+
+
+
+
+
+
+
+
+        
+            @media only screen and (max-width: 450px) {
 
                 body {
 
@@ -776,8 +779,9 @@
 
                 .logodesc img {
 
-                    width: 20vh;
-                    align-self: center;
+                    width: 25vh;
+                    margin-bottom: 1em;
+                
 
                 }
 
@@ -790,7 +794,7 @@
 
              
 
-                .abordagem, .benchmark, .usuarios, .analise, .idea {
+                .abordagem, .benchmark, .usuarios, .analise, .idea, .style, .usabilidade{
                 
                     text-align: left;
                     width: 90%;
@@ -800,9 +804,12 @@
 
                 
 
-                .abordagem p, .benchmark p, .usuarios p, .analise p, .idea p {
+                
+
+                .abordagem p, .benchmark p, .usuarios p, .analise p, .idea p, .style p {
                 
                     text-align: left;
+                    font-size: 1.5em;
                     width: 100%;
                   
                 }
@@ -837,10 +844,10 @@
 
                 .benchmark img {
 
-                   display: none;
+                   width: 40%;
+                   margin: auto;
+                   display: block;
 
-
-        
                 }
 
                 .benchcontainer {
@@ -889,6 +896,37 @@
              
                 }
 
+                .usuarios img {
+
+                    width: 90%;
+                    margin: auto;
+                    display: block;
+        
+                }
+
+                .personas {
+
+                    background-color:transparent;
+                }
+
+                .personascontainer {
+                
+                    width: 100%;
+                    height: auto;
+                    background-color: white;
+                    border-radius: 0 0 30px 30px;
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    
+                }
+                .personas .personascontainer .personaimg {  
+
+                    box-shadow: 0px 1px 0px 0px rgba(229,236,241,1);
+                    width: 100%;
+              
+                  }
+
               
                 
                 .storyboard img {
@@ -900,12 +938,12 @@
                 
              
                 
-                .storyboard img:nth-child(2), .storyboard img:nth-child(3), .storyboard img:nth-child(5){
+                   .storyboard img:nth-child(2), .storyboard img:nth-child(3), .storyboard img:nth-child(5){
                     
                     width: 100%;
                 }
 
-                .wireframe {
+                    .wireframe {
                 
                     display: flex;
                     justify-content: center;
@@ -926,6 +964,46 @@
            
                     }
 
+                    .prototipo {
+                       width: 100%;
+                       box-sizing: border-box;
+                      
+                    }
+
+                    .prototipo .cefr {
+
+                        width: 90%;
+                        margin-top: 2em;
+                        border-radius: 5px;
+                    }
+
+                    .protrow8 {
+
+                        width: 100%;
+                    }
+
+                    .protrow8 .desktop {
+                        width: 90%;
+                        border-radius: 5px;
+
+                    }
+
+                    .style .moodboard, .style .cores, .style .desenhos, .style .personagens, .style .logobrand, .style .mockup   {
+                
+                        width: 100%;
+        
+                    }
+
+                    .style .personagens {
+
+                        width: 180%;
+                        transform: translate(-150px, -10px);
+                    
+                    }
+
+                   
+
+                
                     h3 {
                 
                         font-size: 2em;
@@ -935,25 +1013,10 @@
                      
                     }
 
-                    .moodboard {
-                        width: 100%;
-                    }
-
+                  
                     .smartphone2, .notebook {
                         display: none;
 
                     }
                    
-                
-
-                
-
-
-                
-                
-
-
-
-
-
-        
+   
