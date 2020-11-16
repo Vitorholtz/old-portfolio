@@ -5,8 +5,8 @@
   }
 
   @font-face {
-      font-family: "AgencyFB";
-      src: url(fonts/AgencyFB.ttf);
+      font-family: Agency FB;
+      src: url(fonts/Agency\ FB.ttf);
 
 
   }
@@ -101,7 +101,7 @@
         position: absolute;
         bottom: 0;
         left: 58%;
-        font-family: "AgencyFB";
+        font-family: Agency FB;
     }
     
 
@@ -428,7 +428,7 @@
         right: 0;
         width: 30%;
         font-size: 1.6em;
-        font-family: "AgencyFB";
+        font-family: Agency FB;
         text-align: left; 
         display: block;
         
@@ -616,7 +616,7 @@
         left: 1em;
         width: 30%;
         font-size: 1.6em;
-        font-family: "AgencyFB";
+        font-family: Agency FB;
         text-align: left; 
         
     }
@@ -806,7 +806,7 @@
         color: #c1c1c1;
         font-size: 1.5em;
         margin-top: 1em;
-        font-family: "AgencyFB";
+        font-family: Agency FB;
         width: 50%;
         position: relative;
         
