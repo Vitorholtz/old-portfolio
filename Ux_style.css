@@ -14,7 +14,8 @@
             width: 100%;
             background-color: black;
             height: 6em;
-            position: relative;
+            display: flex;
+            justify-content:center;
     }
     
             header:before{
@@ -35,10 +36,7 @@
             header img {
         
             width: 3.2em;
-            position: absolute;
-            right: 50%;
-            left: 50%;
-            top: 1em;
+            
     }
     
     
@@ -748,12 +746,13 @@
                 article {
 
                     flex-direction: column-reverse;
+                    overflow: hidden;
            
                 }
 
                  .primeirodesenho {
 
-                    width: 100%;
+                    width: 210%;
                  }
 
                
@@ -781,6 +780,7 @@
 
                     width: 25vh;
                     margin-bottom: 1em;
+                    margin: auto;
                 
 
                 }
@@ -858,7 +858,7 @@
                 .abordagem .abordagemimg {
                 
                     width: 100%;
-                    margin: auto;
+                    margin: 2em auto;
             
                 }
 
@@ -929,7 +929,7 @@
 
                 .usuarios img {
 
-                    width: 90%;
+                    width: 70%;
                     margin: auto;
                     display: block;
         
@@ -1028,7 +1028,7 @@
                     .style .personagens {
 
                         width: 180%;
-                        transform: translate(-142px, -10px);
+                        transform: translate(-155px, -10px);
                     
                     }
       
