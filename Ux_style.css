@@ -731,9 +731,51 @@
 
 
 
+            /* 
+
+            @media only screen and (max-width: 1200px) {
+
+
+                .primeirodesenho .meninacelular {
+
+                    display: none;
+                 }
+
+                 section {
+
+                    width: 70%;
+                 }
+
+                 .abordagem, .benchmark, .usuarios, .analise, .idea, .style, .usabilidade{
+                
+                   
+                    width: 70%;
+                    margin: auto;
+                  
+                }
+
+               
+                .abordagem p, .benchmark p, .usuarios p, .analise p, .idea p, .style p {
+                
+                    text-align: left;
+                    font-size: 1.25em;
+                    width: 100%;
+                  
+                }
+
+
+
+            }
+
+*/
+
+
+
+
+
 
         
-            @media only screen and (max-width: 450px) {
+            @media only screen and (max-width: 800px) {
 
                 body {
 
