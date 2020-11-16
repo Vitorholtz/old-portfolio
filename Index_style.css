@@ -1,4 +1,11 @@
 
+    @font-face {
+        font-family: "Bebas kai";
+        src: url("bebaskai-webfont.woff");
+        src: url("bebaskai-webfont.woff") format("woff"),
+        url("bebaskai-webfont.woff2") format("opentype"),
+        }
+    
     html {
         
         scroll-behavior: smooth;
@@ -8,7 +15,6 @@
     body {
         
         margin: 0;
-        width: 100%;
   
     }
     
@@ -54,10 +60,6 @@
         height: 90vh;
         padding-top: 10em;
         position: relative;
-        /* background-image: url(Imagens/Teste8.jpg);
-        background-repeat: no-repeat;
-        background-position: bottom left;
-        background-size: cover;*/
         z-index: 2; 
   
     }
@@ -71,7 +73,7 @@
         bottom:0;
         left:0;
         
-             width: 0;
+        width: 0;
         height: 0;
         border-bottom: 60px solid white;
         border-right: 60px solid transparent;
@@ -79,7 +81,6 @@
     
     .foto-logo {
   
-        margin-top: 4em;
         position: relative;
         display: flex;
         justify-content: center;
@@ -92,8 +93,8 @@
         content: "1992 - 2011 - 2020";
         color: tomato;
         position: absolute;
-        bottom: 0em;
-        right: 37%;
+        bottom: 0;
+        left: 58%;
         font-family: Agency fb;
     }
     
@@ -101,13 +102,11 @@
     
     
     .foto-logo span {
-        
-        height: auto;
+     
         position: relative;
         margin-right: 1em;
         box-sizing: border-box;
-       
-        
+ 
     }
     
     .foto-logo span:before {
@@ -151,8 +150,6 @@
     }
    
     
-
-    
     .logo-header {
         
         width: 18em;
@@ -161,9 +158,7 @@
   
     }
     
-   
- 
-    
+
     .foto-perfil {
         
         width:10em;
@@ -172,22 +167,15 @@
         box-sizing: border-box;
         filter: grayscale(100%);
         transition: all .2s ease-in-out;
-        
-   
+
     }
-    
- 
-   
-    
+
     .foto-perfil:hover {
         
          transform: scale(1.05);
          cursor: crosshair;
     }
-    
-  
 
-    
     nav {
         
         position: relative;
