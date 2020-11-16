@@ -1,5 +1,8 @@
 
- 
+ @font-face {
+    font-family: BebasKai;
+    src: url(Fonts/BebasKai.ttf);
+  }
 
 
     html {
@@ -235,7 +238,7 @@
      nav li {
         
        list-style: none;
-       font-family: Bebas Kai ;
+       font-family: BebasKai;
        font-size: 4em;
        line-height: 1em;
        letter-spacing: 2px;
@@ -333,7 +336,7 @@
     
       .first-article h1 {
         
-        font-family: Bebas kai;
+        font-family: BebasKai;
         font-size: 11em;
         position: absolute;
         top:0;
@@ -364,7 +367,7 @@
     
       .first-article  h2 {
         
-        font-family: Bebas kai;
+        font-family: BebasKai;
         font-size: 6em;
         position: absolute;
         top:1.6em;
@@ -380,7 +383,7 @@
     
       .first-article h3 {
         
-        font-family: Bebas kai;
+        font-family: BebasKai;
         font-size: 6em;
         position: absolute;
         top:2.4em;
@@ -393,7 +396,7 @@
     
       .first-article h4 {
     
-        font-family: Bebas Kai;
+        font-family: BebasKai;
         font-size: 30em;
         position: absolute;
         top: -.2em;
@@ -511,7 +514,7 @@
       color: black;
       font-size: 4em;
       cursor: crosshair;
-      font-family: Bebas Kai;
+      font-family: BebasKai;
         
         position: absolute;
         right: 0;
@@ -553,7 +556,7 @@
     
       .second-article h1 {
         
-        font-family: Bebas kai;
+        font-family: BebasKai;
         font-size: 11em;
         position: absolute;
         top:0;
@@ -564,7 +567,7 @@
   
       .second-article  h2 {
         
-        font-family: Bebas kai;
+        font-family: BebasKai;
         font-size: 6em;
         position: absolute;
         top:1.6em;
@@ -576,7 +579,7 @@
 
       .second-article h3 {
         
-        font-family: Bebas kai;
+        font-family: BebasKai;
         font-size: 6em;
         position: absolute;
         top:2.4em;
@@ -587,7 +590,7 @@
     
       .second-article h4 {
     
-        font-family: Bebas Kai;
+        font-family: BebasKai;
         font-size: 30em;
         position: absolute;
         top: -.2em;
@@ -683,7 +686,7 @@
       color: black;
       font-size: 4em;
       cursor: crosshair;
-      font-family: Bebas Kai;
+      font-family: BebasKai;
         
         position: absolute;
         left: 0;
@@ -782,7 +785,7 @@
     footer h1 {
         
         color: white;
-        font-family: Bebas Kai;
+        font-family: BebasKai;
         font-size: 8em;
         display: none;
          
