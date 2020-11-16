@@ -318,7 +318,7 @@
             
             .personascontainer {
                 
-                width: 60%;
+                width: 95%;
                 height: auto;
                 background-color: white;
                 border-radius: 0 0 30px 30px;
@@ -788,6 +788,8 @@
                     text-align: left;
                 }
 
+             
+
                 .abordagem, .benchmark, .usuarios, .analise, .idea {
                 
                     text-align: left;
@@ -796,12 +798,16 @@
                   
                 }
 
+                
+
                 .abordagem p, .benchmark p, .usuarios p, .analise p, .idea p {
                 
                     text-align: left;
                     width: 100%;
                   
                 }
+
+                
 
                 .abordagem .logo {
                 
@@ -840,6 +846,7 @@
                 .benchcontainer {
                 
                     border: 2px #E5ECF1 solid;
+                    box-sizing: border-box;
                     width: 100%;
                     height: auto;
                     padding: 1em;
@@ -850,6 +857,99 @@
                     display: inline-block;
                     
                 }
+
+                .analise h2:nth-child(10) {
+                
+                    font-size: 2em;
+                    width: 100%;
+                    margin: 2em auto;
+                    text-align: left;
+                    position: relative;
+                }  
+                
+                .analise h2:nth-child(10)::before{ 
+                    
+                    display: none;
+             
+                }
+                
+                .usuarios h2:nth-child(8), .usuarios h2:nth-child(9)  {
+                    
+                    font-size: 2em;
+                    width: 100%;
+                    margin: 2em auto;
+                    text-align: left;
+                    position: relative;
+                }
+                
+                
+                .usuarios h2:nth-child(8):before, .usuarios h2:nth-child(9)::before{ 
+                    
+                    display: none;
+             
+                }
+
+              
+                
+                .storyboard img {
+                    align-self: center;
+                    margin-top: 5em;
+                    width: 100%;
+              
+                }
+                
+             
+                
+                .storyboard img:nth-child(2), .storyboard img:nth-child(3), .storyboard img:nth-child(5){
+                    
+                    width: 100%;
+                }
+
+                .wireframe {
+                
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    }
+
+                    .wireframe a {
+                
+                
+                        border: 2px #E5ECF1 solid;
+                        box-sizing: border-box;
+                        padding: 1em;
+                        border-radius: 30px 30px 30px 0px;
+                        box-shadow: 0px 10px 0px 0px rgba(229,236,241,1);
+                        width: 100%;
+                        margin: 3em 0;
+                        position: relative;
+           
+                    }
+
+                    h3 {
+                
+                        font-size: 2em;
+                        color: #727D83;
+                        margin: 0;
+                        text-align: center;
+                     
+                    }
+
+                    .moodboard {
+                        width: 100%;
+                    }
+
+                    .smartphone2, .notebook {
+                        display: none;
+
+                    }
+                   
+                
+
+                
+
+
+                
                 
 
 
