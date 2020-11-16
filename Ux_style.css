@@ -16,6 +16,7 @@
             height: 6em;
             display: flex;
             justify-content:center;
+            align-content: center;
     }
     
             header:before{
@@ -33,9 +34,10 @@
             border-right: 30px solid transparent;
     }
     
-            header img {
+            header a {
         
             width: 3.2em;
+            margin: 1em 0em 2em 0em;
             
     }
     
@@ -278,7 +280,7 @@
             .benchcontainer {
                 
                 border: 2px #E5ECF1 solid;
-                width: 30%;
+                width: 60%;
                 height: auto;
                 padding: 1em;
                 margin: 1em;
@@ -395,7 +397,7 @@
                 padding: 2em;
                 border-radius: 30px 30px 30px 0px;
                 box-shadow: 0px 10px 0px 0px rgba(229,236,241,1);
-                width: 25%;
+                width: 20%;
                 margin: 3em;
                 position: relative;
    
@@ -705,13 +707,10 @@
             .style .desenhos {
                 
                 
-                width: 80%;
+                width: 60%;
             }
             
-            .style .personagens {
-                
-                width: 80%;
-            }
+            
 
             .style .logobrand {
 
@@ -723,6 +722,11 @@
                 width: 60%;
 
         
+            }
+
+            .style .personagens {
+                
+                width: 80%;
             }
 
 
@@ -1081,8 +1085,8 @@
 
                     .style .personagens {
 
-                        width: 180%;
-                        transform: translate(-155px, -10px);
+                        width: 100%;
+                        
                     
                     }
       
