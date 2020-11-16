@@ -809,9 +809,13 @@
                 .abordagem p, .benchmark p, .usuarios p, .analise p, .idea p, .style p {
                 
                     text-align: left;
-                    font-size: 1.5em;
+                    font-size: 1.25em;
                     width: 100%;
                   
+                }
+
+                ul {
+                    font-size: 1.25em;
                 }
 
                 
@@ -997,16 +1001,24 @@
                     .style .personagens {
 
                         width: 180%;
-                        transform: translate(-150px, -10px);
+                        transform: translate(-142px, -10px);
                     
                     }
 
-                   
 
-                
+                    h1 {
+
+                        font-size: 2.5em;
+                    }
+
+                    h2 {
+
+                        font-size: 1.5em;
+                    }
+
                     h3 {
                 
-                        font-size: 2em;
+                        font-size: 1.5em;
                         color: #727D83;
                         margin: 0;
                         text-align: center;
