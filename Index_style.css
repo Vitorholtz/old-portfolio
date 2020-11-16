@@ -1,11 +1,11 @@
 
-    @font-face {
-        font-family: "Bebas kai";
-        src: url("bebaskai-webfont.woff");
-        src: url("bebaskai-webfont.woff") format("woff"),
-        url("bebaskai-webfont.woff2") format("opentype"),
-        }
-    
+ @font-face {
+    font-family: Bebas kai;
+    font-weight: normal;
+    src: url(Fonts/BebasKai.otf);
+  }
+
+
     html {
         
         scroll-behavior: smooth;
