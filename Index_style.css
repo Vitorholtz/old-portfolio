@@ -893,6 +893,11 @@
     }
 
 
+
+
+
+
+
     @media  (max-width: 1260px) { 
 
         
@@ -919,6 +924,15 @@
 
        
     }
+
+
+
+
+
+
+
+
+
 
     @media (max-width: 1200px) {
 
@@ -1009,6 +1023,13 @@
     }
 
 
+
+
+
+
+
+
+
     @media (max-width: 992px) {
 
 
@@ -1017,22 +1038,42 @@
             height: auto;
         }
 
+        .foto-logo {
+
+            display: flex;
+            flex-direction: column;
+           
+            
+        }
+
         .logo-header {
         
-            width: 29em;
+            width: 35em;
+            align-self: center;
+            margin: 0;
+            
      
         }
-        
+
+        .foto-logo span {
+            align-self: center;
+            
+
+        }
+
     
         .foto-perfil {
 
             width: 17em;
-            margin-right: 1em;
-            
+            margin-left: 1em;
+            margin-right: 0;
+            margin-bottom: 4em;
+            border: 5px white solid;
+     
         } 
         
-        .foto-logo span:before {
-     
+        .foto-logo span:before, .foto-logo span:after {
+          
             display: none;
      
         }
@@ -1045,7 +1086,7 @@
             color: tomato;
             position: absolute;
             bottom: 0;
-            left: 72%;
+            left: 58%;
             font-family: 'Saira Condensed', sans-serif;
             line-height: 1.4em;
         }
