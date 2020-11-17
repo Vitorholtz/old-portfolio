@@ -884,6 +884,8 @@
 
     @media  (max-width: 1200px) { 
 
+        
+
         .linha1 {
             display:none;
         }
@@ -902,6 +904,46 @@
     }
 
     @media (max-width: 1260px) {
+
+        .logo-header {
+        
+            width: 25em;
+     
+        }
+        
+    
+        .foto-perfil {
+
+            width: 13em;
+            margin-right: 1em;
+            
+        } 
+        
+        .foto-logo span:before {
+     
+            display: none;
+     
+        }
+
+      
+        .foto-logo:before {
+        
+            content: "1992 - 2011 - 2020";
+            font-size: 1.5em;
+            color: tomato;
+            position: absolute;
+            bottom: 0;
+            left: 72%;
+            font-family: 'Saira Condensed', sans-serif;
+            line-height: 1.4em;
+        }
+        
+
+        nav li {
+
+            font-size: 5em;
+            text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+        }
 
         .first-article p, .second-article p {
 
