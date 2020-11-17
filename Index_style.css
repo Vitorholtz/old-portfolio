@@ -4,13 +4,6 @@
     src: url(Fonts/BebasKai.ttf);
   }
 
-  @font-face {
-      font-family: Agencyfb;
-      src: url(fonts/Agencyfb.ttf);
-
-
-  }
-
 
     html {
         
@@ -114,7 +107,9 @@
         position: absolute;
         bottom: 0;
         left: 58%;
-        font-family: Agencyfb;
+        font-family: 'Cairo', sans-serif;
+        line-height: 1.4em;
+        
     }
     
 
@@ -441,7 +436,8 @@
         right: 0;
         width: 30%;
         font-size: 1.6em;
-        font-family: Agencyfb;
+        font-family: 'Cairo', sans-serif;
+        line-height: 1.4em;
         text-align: left; 
         display: block;
         
@@ -629,7 +625,8 @@
         left: 1em;
         width: 30%;
         font-size: 1.6em;
-        font-family: Agencyfb;
+        font-family: 'Cairo', sans-serif;
+        line-height: 1.4em;
         text-align: left; 
         
     }
@@ -799,7 +796,6 @@
         width: 30em;
         display: inline-block;
     
-        
     }
     
     footer h1 {
@@ -819,7 +815,8 @@
         color: #c1c1c1;
         font-size: 1.5em;
         margin-top: 1em;
-        font-family: Agencyfb;
+        font-family: 'Cairo', sans-serif;
+        line-height: 1.4em;
         width: 50%;
         position: relative;
         
@@ -928,7 +925,8 @@
             position: absolute;
             bottom: 0;
             left: 72%;
-            font-family: Agencyfb;
+            font-family: 'Cairo', sans-serif;
+            line-height: 1.4em;
         }
         
 
@@ -943,7 +941,7 @@
         .first-article .button, .second-article .button {
 
          font-size: 6em;
-         bottom: .8em;
+         bottom: 0em;
         }
 
         .first-article p, .second-article p {
@@ -951,11 +949,47 @@
             font-size: 2em;
         }
 
-    }
+        .stickhome img{
+        
+          display: none;
+         
+        }
 
-    @media (max-width: 768px) {
+        footer p{
 
+            width: 100%;
+            font-size: 2em;
        
+        }
+
+        footer .containerfooter {
+       
+            justify-content: center;
+            border: 1px red solid;
+        
+        }
+
+        footer img {
+        
+            width: 30em;
+            align-self: center;
+        
+        }
+
+        .icons-container {
+           border: 1px red solid;
+           display: flex;
+           justify-content: center;
+           
+        }
+
+        .fab{
+        
+            
+            font-size: 4em;
+         
+        }
+
     }
 
     
