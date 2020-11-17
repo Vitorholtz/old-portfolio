@@ -107,7 +107,7 @@
         position: absolute;
         bottom: 0;
         left: 58%;
-        font-family: 'Cairo', sans-serif;
+        font-family: 'Saira Condensed', sans-serif;
         line-height: 1.4em;
         
     }
@@ -938,7 +938,7 @@
             position: absolute;
             bottom: 0;
             left: 72%;
-            font-family: 'Cairo', sans-serif;
+            font-family: 'Saira Condensed', sans-serif;
             line-height: 1.4em;
         }
         
@@ -982,7 +982,7 @@
 
         footer img {
         
-            width: 30em;
+            width: 40em;
             align-self: center;
         
         }
