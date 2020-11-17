@@ -24,14 +24,26 @@
   
     }
     
-     .linha1 {
+     main .linha1{
+        
+        position: absolute;
+        top: 0;
+        left: 10em;
+        width: 1px;
+        height: 550em;
+        background-color:#8b8b8b;
+        
+       
+    }
+
+    .linha1{
         
         position: absolute;
         top: 0;
         left: 10em;
         width: 1px;
         height: 100%;
-        background-color:#ce0000;
+        background-color:#8b8b8b;
         
        
     }
@@ -857,6 +869,36 @@
         right: 15em;
      
     }
+
+
+    @media only screen and (max-width: 1300px) { 
+
+        .linha1 {
+            display:none;
+        }
+
+        .first-article {
+
+            width: 90%;
+        }
+
+        .second-article {
+
+            width: 90%;
+        }
+
+        li{
+
+            font-size: 4em;
+        }
+
+       
+    }
+
+    
+
+
+    
     
 
      
