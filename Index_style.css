@@ -5,8 +5,8 @@
   }
 
   @font-face {
-      font-family: Agency FB;
-      src: url(fonts/Agency\ FB.ttf);
+      font-family: Agencyfb;
+      src: url(fonts/Agencyfb.ttf);
 
 
   }
@@ -114,7 +114,7 @@
         position: absolute;
         bottom: 0;
         left: 58%;
-        font-family: Agency FB;
+        font-family: Agencyfb;
     }
     
 
@@ -441,7 +441,7 @@
         right: 0;
         width: 30%;
         font-size: 1.6em;
-        font-family: Agency FB;
+        font-family: Agencyfb;
         text-align: left; 
         display: block;
         
@@ -629,7 +629,7 @@
         left: 1em;
         width: 30%;
         font-size: 1.6em;
-        font-family: Agency FB;
+        font-family: Agencyfb;
         text-align: left; 
         
     }
@@ -819,7 +819,7 @@
         color: #c1c1c1;
         font-size: 1.5em;
         margin-top: 1em;
-        font-family: Agency FB;
+        font-family: Agencyfb;
         width: 50%;
         position: relative;
         
@@ -901,15 +901,23 @@
 
         .logo-header {
         
-            width: 27em;
+            width: 29em;
      
         }
         
     
         .foto-perfil {
 
-            width: 15em;
-        }    
+            width: 17em;
+            margin-right: 1em;
+            
+        } 
+        
+        .foto-logo span:before {
+     
+            display: none;
+     
+        }
 
       
         .foto-logo:before {
@@ -920,7 +928,7 @@
             position: absolute;
             bottom: 0;
             left: 72%;
-            font-family: Agency FB;
+            font-family: Agencyfb;
         }
         
 
