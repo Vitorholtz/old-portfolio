@@ -24,7 +24,7 @@
         left: 10em;
         width: 1px;
         height: 550em;
-        background-color:#8b8b8b;
+        background-color #e3e3e3;
         
        
     }
@@ -36,7 +36,7 @@
         left: 10em;
         width: 1px;
         height: 100%;
-        background-color:#8b8b8b;
+        background-color: #e3e3e3;
         
        
     }
@@ -52,7 +52,7 @@
         width: 0;
         height: 0;
         border-top: 1em solid transparent;
-        border-left: 1em solid #c1c1c1;
+        border-left: 1em solid  #e3e3e3;
         border-bottom: 1em solid transparent;
         
          
@@ -344,7 +344,7 @@
         width: 40em;
         position: absolute;
         top:-10em;
-        right:40%;
+        left:0;
         
        
     }
@@ -352,7 +352,7 @@
       .first-article h1 {
         
         font-family: BebasKai;
-        font-size: 11em;
+        font-size: 12em;
         position: absolute;
         top:0;
         left:-.025em;
@@ -383,7 +383,7 @@
       .first-article  h2 {
         
         font-family: BebasKai;
-        font-size: 6em;
+        font-size: 7em;
         position: absolute;
         top:1.6em;
         left:0;
@@ -401,7 +401,7 @@
         font-family: BebasKai;
         font-size: 6em;
         position: absolute;
-        top:2.4em;
+        top:3em;
         left:0;
         color: #ebebeb; 
          
@@ -415,7 +415,7 @@
         font-size: 30em;
         position: absolute;
         top: -.2em;
-        left: -.4em;
+        right: 1em;
         z-index: -2;
         color: white;
         
@@ -466,7 +466,7 @@
         justify-content: center;
         align-content: center;
         position: absolute;
-        top: 25em;
+        bottom: 0;
         left: 0em;
         box-sizing: border-box;
     
@@ -534,7 +534,7 @@
         
         position: absolute;
         right: 0;
-        bottom: 1em;
+        bottom:0;
         
         
 }
@@ -569,11 +569,24 @@
         position: relative;
        
     }
+
+    .second-article:before {
+        
+        content: "";
+        background-color: #c1c1c1;
+        height: 1px;
+        width: 40em;
+        position: absolute;
+        top:-10em;
+        right:0;
+        
+       
+    }
     
       .second-article h1 {
         
         font-family: BebasKai;
-        font-size: 11em;
+        font-size: 12em;
         position: absolute;
         top:0;
         right:0;
@@ -584,7 +597,7 @@
       .second-article  h2 {
         
         font-family: BebasKai;
-        font-size: 6em;
+        font-size: 7em;
         position: absolute;
         top:1.6em;
         right:0;
@@ -598,7 +611,7 @@
         font-family: BebasKai;
         font-size: 6em;
         position: absolute;
-        top:2.4em;
+        top:3em;
         right:0;
         color: #ebebeb; 
  
@@ -610,7 +623,7 @@
         font-size: 30em;
         position: absolute;
         top: -.2em;
-        left: .5em;
+        right: -.1em;
         z-index: -2;
         color: white;
         
@@ -654,7 +667,7 @@
         justify-content: center;
         align-content: center;
         position: absolute;
-        top: 25em;
+        bottom: 0;
         right: 0;
         box-sizing: border-box;
     
@@ -707,7 +720,7 @@
         
         position: absolute;
         left: 0;
-        bottom: 1em;
+        bottom: 0em;
         
         
 }
@@ -942,6 +955,7 @@
 
          font-size: 6em;
          bottom: 0em;
+
         }
 
         .first-article p, .second-article p {
@@ -952,21 +966,18 @@
         .stickhome img{
         
           display: none;
-         
         }
 
         footer p{
 
             width: 100%;
             font-size: 2em;
-       
+
         }
 
         footer .containerfooter {
        
             justify-content: center;
-            border: 1px red solid;
-        
         }
 
         footer img {
@@ -977,10 +988,8 @@
         }
 
         .icons-container {
-           border: 1px red solid;
            display: flex;
            justify-content: center;
-           
         }
 
         .fab{
