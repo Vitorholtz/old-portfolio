@@ -964,11 +964,11 @@
         .foto-logo:before {
         
             content: "1992 - 2011 - 2020";
-            font-size: 1.5em;
+            font-size: 1em;
             color: tomato;
             position: absolute;
             bottom: 0;
-            left: 72%;
+            left: 68%;
             font-family: 'Saira Condensed', sans-serif;
             line-height: 1.4em;
         }
@@ -1068,7 +1068,7 @@
             margin-left: 1em;
             margin-right: 0;
             margin-bottom: 4em;
-            border: 5px white solid;
+            border: 4px white solid;
      
         } 
         
@@ -1116,6 +1116,12 @@
         .stickhome img{
         
           display: none;
+        }
+
+        footer {
+
+            background-color: black;
+            background-image: none;
         }
 
         footer p{
