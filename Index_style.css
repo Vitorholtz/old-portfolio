@@ -893,47 +893,61 @@
 
     @media (max-width: 992px) {
 
-        .logo-header {
-        
-            width: 25em;
-            
-      
-        }
-        
-    
-        .foto-perfil {
-
-
-            width: 13em;
-        }    
 
         header{ 
 
             height: auto;
         }
 
+        .logo-header {
+        
+            width: 27em;
+     
+        }
+        
+    
+        .foto-perfil {
+
+            width: 15em;
+        }    
+
+      
+        .foto-logo:before {
+        
+            content: "1992 - 2011 - 2020";
+            font-size: 1.5em;
+            color: tomato;
+            position: absolute;
+            bottom: 0;
+            left: 72%;
+            font-family: Agency FB;
+        }
+        
+
         nav li {
 
             font-size: 8em;
+            text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
         }
 
        
-        .first-article .button {
+    
+        .first-article .button, .second-article .button {
 
-            font-size: 8em;
-            bottom: -1em;
+         font-size: 6em;
+         bottom: .8em;
+        }
+
+        .first-article p, .second-article p {
+            top: 0;
+            font-size: 2em;
+        }
 
     }
-        .second-article .button {
-
-        font-size: 8em;
-        bottom: -1em;
-
-}
 
     @media (max-width: 768px) {
 
-        
+       
     }
 
     
