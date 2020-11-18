@@ -4,14 +4,6 @@ window.onscroll = function () {
     let position = 1082;
 
     if (currentScrollPos >= position) {
-        document.getElementById("menu").style.visibility = 'visible';
-        document.getElementById("menu").style.opacity = 1;
-    } else {
-        document.getElementById("menu").style.visibility = 'hidden';
-        document.getElementById("menu").style.opacity = 0;
-    }
-
-    if (currentScrollPos >= position) {
         document.getElementById("stickhome_img").style.opacity = 1;
         document.getElementById("stickhome_img").style.visibility = 'visible';
         document.getElementById("stickhome_img").style.top = '40em';
