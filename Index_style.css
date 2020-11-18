@@ -327,7 +327,6 @@
     
       .first-article {
         
-        border: 1px blue solid;
         width: 70%;
         height: 55em;
         margin: auto;
@@ -920,6 +919,14 @@
             display:none;
         }
 
+        .first-article .button, .second-article .button {
+
+          
+            margin-bottom: 0;
+            bottom: 0;
+   
+           }
+
         .first-article {
 
             width: 90%;
@@ -998,6 +1005,13 @@
 
             font-size: 1.5em;
         }
+
+        .first-article .button, .second-article .button {
+
+          
+            margin-bottom: 0;
+   
+           }
 
         footer .containerfooter {
        
@@ -1123,10 +1137,10 @@
         .first-article .button, .second-article .button {
 
           
-         font-size: 6em;
-         bottom: 0em;
-
-        }
+            margin-bottom: 0;
+            bottom: 0;
+   
+         }
 
         .first-article p, .second-article p {
             top: 0;
