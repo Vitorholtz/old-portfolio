@@ -1,3 +1,8 @@
+@font-face {
+    font-family: BebasKai;
+    src: url(Fonts/BebasKai.ttf);
+  }
+
 * {
     box-sizing: border-box;
 }
@@ -67,7 +72,7 @@ p:before {
 
 h2 {
     
-    font-family: Bebas kai;
+    font-family: BebasKai;
     font-size: 10em;
     margin: 0;
    
@@ -75,7 +80,7 @@ h2 {
 }
 
 h3{
-    font-family: Bebas kai;
+    font-family: BebasKai;
     font-size: 4em;
     color: #c3c3c3;
     margin: 0;
@@ -88,9 +93,6 @@ h3{
     width: 70%;
     margin: auto;
     display: flex;
-    
-
- 
 
 }
 
@@ -114,14 +116,11 @@ h3{
 
 
 
+@media only screen and (max-width: 750px) {
 
-
-
-
-
-
-
-@media only screen and (max-width: 800px) {
-
+    .container {
+        
+        flex-direction: column;
+    }
     
 }    
