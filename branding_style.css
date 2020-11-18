@@ -1,6 +1,11 @@
+* {
+    box-sizing: border-box;
+}
+
 body{
         
     margin: 0;
+    width: 100%;
 }
 
 header {
@@ -33,7 +38,7 @@ main {
      height: 100%;
      display: flex;
      flex-direction: column;
-     padding-left: 2em;
+     
     
 
 }
@@ -45,6 +50,7 @@ p {
     text-align: left;
     width: 100%;
     margin: 1em auto ;
+    transform: translate(1.3em, 0em);
     font-family: 'Cairo', sans-serif;
     position: relative;
 }
@@ -77,38 +83,38 @@ h3{
   
 }
 
+.container {
 
+    width: 70%;
+    margin: auto;
+    display: flex;
+    
 
-
-
-
-
-
-div.gallery {
-border: 0px solid #ccc;
-}
-
-div.gallery:hover {
-border: 0px solid #777;
-}
-
-div.gallery img {
-width: 100%;
-height: auto;
-}
-
-
-
-* {
-box-sizing: border-box;
-}
-
-.responsive {
-padding: 6px 6px;
-float: left;
-width: 49.99999%;
+ 
 
 }
+
+.col1, .col2 {
+
+  
+   display: flex;
+   flex-direction: column;
+   margin: 0 4px;
+   
+    
+}
+
+.col1 img, .col2 img {
+
+    width: 100%;
+    margin: 4px 0;
+    
+     
+ }
+
+
+
+
 
 
 
