@@ -1128,11 +1128,10 @@
 
        
         .first-article, .second-article {
-
+            
             height: 60em;
             width: 90%;
             margin-top: 20em;
-
 
         }
 
@@ -1140,7 +1139,7 @@
 
         .first-article .button, .second-article .button {
 
-            font-size: 6em;
+            font-size: 7em;
             margin-bottom: 0;
             bottom: 0;
    
