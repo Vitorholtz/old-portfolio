@@ -1130,10 +1130,13 @@
         .first-article, .second-article {
 
             height: 60em;
+            width: 90%;
             margin-top: 20em;
 
 
         }
+
+        
 
         .first-article .button, .second-article .button {
 
