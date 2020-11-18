@@ -6,7 +6,7 @@ window.onscroll = function () {
     if (currentScrollPos >= position) {
         document.getElementById("stickhome_img").style.opacity = 1;
         document.getElementById("stickhome_img").style.visibility = 'visible';
-        document.getElementById("stickhome_img").style.top = '40em';
+        document.getElementById("stickhome_img").style.top = '30em';
     } else {
         document.getElementById("stickhome_img").style.opacity = 0;
         document.getElementById("stickhome_img").style.visibility = 'hidden';
