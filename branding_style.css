@@ -7,32 +7,18 @@ header {
     
     width: 100%;
     background-color: black;
+    display: flex;
     height: 6em;
-    position: relative;;
+    justify-content:center;
+    align-content: center;
+    margin-bottom: 10em;
 }
 
-header:before{
-    content: '';
-    width: 5em;
-    height: 5em;
-    background-color: transparent;
-    position: absolute;
-    bottom:0;
-    left:0;
-    
-    width: 0;
-    height: 0;
-    border-bottom: 30px solid white;
-    border-right: 30px solid transparent;
-}
-
-header img {
-    
+header a {
+        
     width: 3.2em;
-    position: absolute;
-    right: 50%;
-    left: 50%;
-    top: 1em;
+    margin: 1em 0em 2em 0em;
+    
 }
 
 
@@ -43,19 +29,21 @@ main {
 
  .desc {
     
-     display: flex;
      height:100%;
-     border: 1px transparent solid; 
-     padding: 10em 0 2em 0;
-     position: relative;
+     display: flex;
+     flex-direction: column;
+
+   
+     
     
 }
 
 h2 {
     
     font-family: Bebas kai;
-    font-size: 12em;
+    font-size: 10em;
     margin: 0;
+    text-align: center;
     
 }
 
@@ -64,42 +52,25 @@ h3{
     font-size: 4em;
     color: #c3c3c3;
     margin: 0;
-    position: absolute;
-    top: 5.3em;
-    left:.1em;
-       
+    text-align: center;
+    margin: -30px 0 0 0;
+  
 }
 
+.text {
+    border: 1px red solid;
+    width: 100%;
+    margin: auto;
+}
 
-h4 {
-    
+p {
+    font-size: 1.5em;
+    width: 70%;
+    margin: auto;
     font-family: 'Cairo', sans-serif;
-    line-height: 1.4em;
-    font-size: 1.6em;
-    color: gray;
-    width: 50%;
-    margin-left: 3em;
-
-
-    position: relative;
-    
 }
 
-h4:after {
-    
-    content: "";
-    background-color: black;
-    height: 7em;
-    width: 3px;
-    position: absolute;
-    top: 1em;
-    left: -1.7em;
-}
 
- .invisiblespace {
-    color:transparent;
-    
-} 
 
 
 div.gallery {
@@ -129,88 +100,11 @@ width: 49.99999%;
 }
 
 
-.clearfix:after {
-content: "";
-display: table;
-clear: both;
-}
 
 
 
 
 @media only screen and (max-width: 800px) {
 
-.responsive {
-width: 100%;
-  
-}
-  
-
-main {
-    
-    width: 100%;
-    padding: 0em;
-    
-}
-
-   .desc{
-       
-       
-    
-     display: inline-block;
-     height:100%;
-     padding: 10em 0 4em 0;
-       
-             
-     
-}
- 
-    
-   h2{
-    
-    font-family: Bebas kai;
-    text-align: center;
-    font-size: 5em;
-    margin: 0;
-     
-    
-}
-    
-
-  h3{
-    font-family: Bebas kai;
-    font-size: 4em;
-    color: #c3c3c3;
-    margin: 0;
-  
-}    
-    
-    
-   h4 {
-    
-    font-family: 'Cairo', sans-serif;
-    line-height: 1.4em;
-    font-size: 3em;
-    color: gray;
-    width: 100%;
-    text-align: center;
-    margin: 0;
-    
-
-}
-    
-     h4:after {
-    
-    content: "";
-    display: none;
-         
-}
-    
-     .invisiblespace {
-    display: none;
-    
-} 
-    
-    
     
 }    

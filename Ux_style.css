@@ -19,21 +19,7 @@
             align-content: center;
     }
     
-            header:before{
-            content: '';
-            width: 5em;
-            height: 5em;
-            background-color: transparent;
-            position: absolute;
-            bottom:0;
-            left:0;
-        
-             width: 0;
-            height: 0;
-            border-bottom: 30px solid white;
-            border-right: 30px solid transparent;
-    }
-    
+
             header a {
         
             width: 3.2em;
