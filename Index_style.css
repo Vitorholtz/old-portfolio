@@ -328,7 +328,7 @@
       .first-article {
         
         width: 70%;
-        height: 55em;
+        height: 90vh;
         margin: auto;
         margin-top: 9em;
         margin-bottom: 20em;
@@ -530,7 +530,7 @@
       cursor: crosshair;
       font-family: BebasKai;
         
-        margin-bottom: 1em;
+       
         position: absolute;
         right: 0;
         bottom:0;
@@ -561,7 +561,7 @@
         
      
         width: 70%;
-        height: 55em;
+        height: 90vh;
         margin: auto;
         margin-top: 9em;
         margin-bottom: 20em;
@@ -732,7 +732,7 @@
       cursor: crosshair;
       font-family: BebasKai;
         
-        margin-bottom: 1em;
+        
         position: absolute;
         left: 0;
         bottom: 0em;
