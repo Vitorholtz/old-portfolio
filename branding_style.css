@@ -25,17 +25,38 @@ header a {
 main {
    width: 70%;
    margin: auto;
+
 }
 
  .desc {
     
-     height:100%;
+     height: 100%;
      display: flex;
      flex-direction: column;
-
-   
-     
+     padding-left: 2em;
     
+
+}
+
+p {
+    font-size: 1.5em;
+    line-height: 1.4em;
+    margin-left: 1em;
+    text-align: left;
+    width: 100%;
+    margin: 1em auto ;
+    font-family: 'Cairo', sans-serif;
+    position: relative;
+}
+
+p:before {
+    content: "";
+        background-color: rgb(170, 170, 170);
+        height: 100%;
+        width: 2px;
+        position: absolute;
+        top: 0;
+        left:-1em;
 }
 
 h2 {
@@ -43,7 +64,7 @@ h2 {
     font-family: Bebas kai;
     font-size: 10em;
     margin: 0;
-    text-align: center;
+   
     
 }
 
@@ -52,23 +73,13 @@ h3{
     font-size: 4em;
     color: #c3c3c3;
     margin: 0;
-    text-align: center;
     margin: -30px 0 0 0;
   
 }
 
-.text {
-    border: 1px red solid;
-    width: 100%;
-    margin: auto;
-}
 
-p {
-    font-size: 1.5em;
-    width: 70%;
-    margin: auto;
-    font-family: 'Cairo', sans-serif;
-}
+
+
 
 
 
