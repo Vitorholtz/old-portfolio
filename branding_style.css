@@ -124,6 +124,15 @@ h3{
 
 @media (max-width: 800px) {
 
+    h2 {
+ 
+        font-size: 8em;
+     }
+
+     h3 {
+ 
+        font-size: 3em;
+     }
     
     p {
         font-size: 1em;
