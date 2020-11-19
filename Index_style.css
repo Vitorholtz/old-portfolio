@@ -205,6 +205,7 @@
     nav ul {
        
         text-align: center;
+        transform: translate(-15px, 0px);
        
     }
     
@@ -217,7 +218,7 @@
         width: 3em;
         height: 1px;
         position: absolute;
-        top:0em;
+        top:-1.5em;
         background-color: white;   
         transition:  transform 1s;
         transform: scale(0, 2);
@@ -232,7 +233,7 @@
         width: 3em;
         height: 1px;
         position: absolute;
-        bottom: 0em;
+        bottom: -1.5em;
         background-color: white;
         transition:  transform 1s;
         transform: scale(0, 2);
@@ -927,31 +928,19 @@
    
            }
 
-        .first-article {
+        .first-article, .second-article {
 
             width: 90%;
         }
 
-        .second-article {
-
-            width: 90%;
-        }
-
+      
         .stickhome img{
         
             display: none;
          
         }
 
-       
-    }
-
-
-
-
-
-
-
+  
 
 
 
@@ -1050,86 +1039,32 @@
        
     }
 
-
-
-
-
-
-
-
-
-    @media (max-width: 992px) {
-
-
-        header{ 
-
-            height: auto;
-        }
-
-        .foto-logo {
-
-            display: flex;
-            flex-direction: column;
-           
-            
-        }
+    @media (max-width: 960px) {
 
         .logo-header {
         
-            width: 35em;
-            align-self: center;
+            width: 19em;
             margin: 0;
-            
      
         }
-
-        .foto-logo span {
-            align-self: center;
-            
-
-        }
-
+        
     
         .foto-perfil {
 
-            width: 17em;
-            margin-left: 1em;
-            margin-right: 0;
-            margin-bottom: 4em;
-            border: 4px white solid;
-     
+            width: 9em;
+            margin-right: 1em;
+            
         } 
-        
-        .foto-logo span:before, .foto-logo span:after {
-          
-            display: none;
-     
-        }
-
-      
-        .foto-logo:before {
-        
-            content: "1992 - 2011 - 2020";
-            font-size: 1.5em;
-            color: tomato;
-            position: absolute;
-            bottom: 0;
-            left: 58%;
-            font-family: 'Saira Condensed', sans-serif;
-            line-height: 1.4em;
-        }
-        
 
         nav li {
 
-            font-size: 8em;
-            text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
+            font-size: 4em;
+    
         }
 
-       
         .first-article, .second-article {
             
-            height: 60em;
+            height: 50em;
             width: 90%;
             margin-top: 20em;
 
@@ -1146,8 +1081,30 @@
          }
 
         .first-article p, .second-article p {
-            top: 0;
-            font-size: 2em;
+            bottom: 0;
+            font-size: 1.4em;
+        }
+
+        .first-article .quadrado-imagem, .second-article .quadrado-imagem {
+
+            width: 20em;
+            height: 20em;
+        }
+
+        .first-article .quadrado-imagem:before , .second-article .quadrado-imagem:before {
+
+            display: none;
+        } 
+
+        .first-article .quadrado-imagem:after , .second-article .quadrado-imagem:after {
+
+            display: none;
+        } 
+
+
+        .first-article .button, .second-article .button {
+
+            font-size: 3em;
         }
 
 
@@ -1193,7 +1150,171 @@
          
         }
 
+
+
+
     }
+
+
+    @media (max-width: 660px) {
+
+
+        header{ 
+
+            height: auto;
+        }
+
+        .foto-logo {
+            
+
+            display: flex;
+            flex-direction: column;
+           
+            
+        }
+
+        .logo-header {
+        
+            width: 24em;
+            align-self: center;
+            margin: 0;
+            
+     
+        }
+
+        .foto-logo span {
+            align-self: center;
+            
+
+        }
+
+    
+        .foto-perfil {
+
+            width: 13em;
+            margin-left: 1em;
+            margin-right: 0;
+            margin-bottom: 4em;
+            border: 2px white solid;
+     
+        } 
+        
+        .foto-logo span:before, .foto-logo span:after {
+          
+            display: none;
+     
+        }
+
+      
+        .foto-logo:before {
+        
+            content: "1992 - 2011 - 2020";
+            font-size: 1.5em;
+            color: tomato;
+            position: absolute;
+            bottom: 0;
+            left: 58%;
+            font-family: 'Saira Condensed', sans-serif;
+            line-height: 1.4em;
+        }
+        
+
+        nav li {
+
+            font-size: 5em;
+            text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
+        }
+
+        footer {
+            display: none;
+        }
+
+       
+        
+    }
+
+
+
+
+    @media (max-width: 520px) { 
+
+
+        header {
+
+            padding: 4em 0;
+        }
+
+        header:before{
+            content: '';
+            width: 5em;
+            height: 5em;
+            background-color: transparent;
+            position: absolute;
+            bottom:0;
+            left:0;
+            
+            width: 0;
+            height: 0;
+            border-bottom: 20px solid white;
+            border-right: 20px solid transparent;
+        }
+
+
+     
+
+        .logo-header {
+        
+            width: 15em;
+            align-self: center;
+            margin: 0;
+            
+     
+        }
+
+      
+    
+        .foto-perfil {
+
+            width: 7em;
+            margin-left: 1em;
+            margin-right: 0;
+            margin-bottom: 1em;
+            border: 2px white solid;
+     
+        } 
+        
+       
+
+      
+        .foto-logo:before {
+        
+            content: "1992 - 2011 - 2020";
+            font-size: .6em;
+            color: tomato;
+            position: absolute;
+            bottom: 0;
+            left: 65%;
+            font-family: 'Saira Condensed', sans-serif;
+            line-height: 1.4em;
+        }
+
+        nav{
+            margin-top: 4em;
+        }
+        
+
+        nav li {
+
+            font-size: 3em;
+            
+            text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+        }
+
+      
+
+    }
+
+
 
     
    
