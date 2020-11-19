@@ -590,7 +590,7 @@
         font-size: 12em;
         position: absolute;
         top:0;
-        right:0;
+        right:-10px;
   
     }
 
@@ -1342,7 +1342,7 @@
 
         .first-article h1, .second-article h1 {
 
-            left: 0;
+            left: -2px;
             font-size: 7em;
         }
 
