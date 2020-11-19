@@ -1101,6 +1101,11 @@
             display: none;
         } 
 
+        .first-article h4, .second-article h4 {
+
+            right: -.1em;
+        }
+
 
         .first-article .button, .second-article .button {
 
@@ -1158,6 +1163,7 @@
 
     @media (max-width: 660px) {
 
+    
 
         header{ 
 
@@ -1229,7 +1235,14 @@
             display: none;
         }
 
-       
+
+        .first-article p,  .second-article p {
+            
+            width: 30%;
+            font-size: 1.2em;
+        }
+
+    
         
     }
 
@@ -1314,6 +1327,7 @@
 
         .first-article, .second-article {
             
+           height: 44em;
            margin-top: 0;
         }
 
@@ -1339,6 +1353,12 @@
             left: 0;
             font-size: 4em;
             top: 2.5em;
+        }
+
+        .first-article h4, .second-article h4 {
+
+            font-size: 13em;
+            right: -.2em;
         }
 
 
