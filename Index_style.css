@@ -1331,7 +1331,7 @@
 
         .first-article, .second-article {
             
-           height: 44em;
+           height: 50em;
            margin-top: 0;
         }
 
@@ -1370,9 +1370,10 @@
     
             width: 100%;
             height: auto;
-            bottom: 0;
+
+           top: 13em;
             left: 0;
-            font-size: 1em;
+            font-size: 1.2em;
         }
 
         .first-article p:before, .second-article p:before {
