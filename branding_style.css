@@ -54,7 +54,7 @@ p {
     line-height: 1.4em;
     text-align: left;
     width: 95%;
-    margin: 1em auto;
+    margin: 1em 0;
     transform: translate(.4em, 0em);
     font-family: 'Cairo', sans-serif;
     position: relative;
