@@ -215,7 +215,7 @@
         
         content: "";
         left: 50%;
-        width: 3em;
+        width: 2.5em;
         height: 1px;
         position: absolute;
         top:-1.5em;
@@ -230,7 +230,7 @@
         
         content: "";
         left: 50%;
-        width: 3em;
+        width: 2.5em;
         height: 1px;
         position: absolute;
         bottom: -1.5em;
@@ -1051,7 +1051,7 @@
     
         .foto-perfil {
 
-            width: 9em;
+            width: 11em;
             margin-right: 1em;
             
         } 
@@ -1266,7 +1266,7 @@
         
             width: 15em;
             align-self: center;
-            margin: 0;
+            margin: 1em 0 0 0;
             
      
         }
@@ -1275,11 +1275,12 @@
     
         .foto-perfil {
 
-            width: 7em;
+            width: 8em;
+            margin top: 0;
             margin-left: 1em;
             margin-right: 0;
             margin-bottom: 1em;
-            border: 2px white solid;
+            border: 1.5px white solid;
      
         } 
         
@@ -1308,6 +1309,59 @@
             font-size: 3em;
             
             text-shadow: -1px -1px 0 #ffffff, 1px -1px 0 #ffffff, -1px 1px 0 #ffffff, 1px 1px 0 #ffffff;
+        }
+
+
+        .first-article, .second-article {
+            
+           
+        }
+
+        .first-article h1, .second-article h1 {
+
+            font-size: 7em;
+        }
+
+        .first-article h2, .second-article h2 {
+
+            font-size: 4em;
+        }
+
+        .first-article h3, .second-article h3 {
+
+            font-size: 4em;
+            top: 2.5em;
+        }
+
+
+        .first-article p, .second-article p {
+            width: 100%;
+            bottom: 0;
+            font-size: 1em;
+        }
+
+        .first-article .quadrado-imagem, .second-article .quadrado-imagem {
+
+            width: 100%;
+            height: 40%;
+        }
+
+        .first-article .quadrado-imagem:before , .second-article .quadrado-imagem:before {
+
+            display: none;
+        } 
+
+        .first-article .quadrado-imagem:after , .second-article .quadrado-imagem:after {
+
+            display: none;
+        } 
+
+
+        .first-article .button, .second-article .button {
+
+            font-size: 3em;
+            left: 0;
+            bottom: -1.5em;
         }
 
       
