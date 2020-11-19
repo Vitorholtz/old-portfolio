@@ -1314,21 +1314,29 @@
 
         .first-article, .second-article {
             
-           
+           margin-top: 0;
         }
+
+        .first-article:before, .second-article:before {
+            
+            top:-2em;
+         }
 
         .first-article h1, .second-article h1 {
 
+            left: 0;
             font-size: 7em;
         }
 
         .first-article h2, .second-article h2 {
 
+            left: 0;
             font-size: 4em;
         }
 
         .first-article h3, .second-article h3 {
 
+            left: 0;
             font-size: 4em;
             top: 2.5em;
         }
@@ -1337,7 +1345,12 @@
         .first-article p, .second-article p {
             width: 100%;
             bottom: 0;
+            left: 0;
             font-size: 1em;
+        }
+
+        .first-article p:before, .second-article p:before {
+           display: none;
         }
 
         .first-article .quadrado-imagem, .second-article .quadrado-imagem {
