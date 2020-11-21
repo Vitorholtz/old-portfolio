@@ -31,7 +31,6 @@ header ul {
     color: white;
     padding: 0;
     margin: 0;
-    border: 1px red solid;
 
 }
 
@@ -53,6 +52,12 @@ header ul li a:hover:before{
     position: absolute;
     bottom: 0px;
     
+}
+
+.logocima:hover:before {
+
+display: none;
+
 }
 
 
