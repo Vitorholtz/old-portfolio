@@ -332,19 +332,22 @@
             
             
        
-            .benchcontainer ul {
+            .benchcontainer ul, .usuarios section ul {
                 font-size: 1.5em;
                 color: #727D83;
-               
-                
+         
+            }
+
+           .logodesc ul{
+
+                font-size: 1.5em;
+
+
             }
         
             
 
-            .usuarios section ul {
-                font-size: 1.5em;
-                color: #727D83;
-            }
+           
 
             .benchcontainer ul li,.usuarios section ul li {
                 
