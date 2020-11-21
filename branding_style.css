@@ -22,6 +22,19 @@ header {
 
 }
 
+header ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+    padding: 0;
+    margin: 0;
+    border: 1px red solid;
+
+}
+
 header ul li a {
 
     text-decoration: none;
@@ -43,29 +56,17 @@ header ul li a:hover:before{
 }
 
 
-header ul li a img {
-    margin: .6em 0 .3em 0;  
-    width: 1.5em;
-  
- 
-}
-
-header ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    color: white;
-    padding: 0;
-    margin: 0;
-
-}
 
 header ul li {
 
     font-size: 2em;
     font-family: BebasKai;
+}
+
+header ul li a img {
+    margin: .6em 0 .3em 0;  
+    width: 1.5em;
+ 
 }
 
 
