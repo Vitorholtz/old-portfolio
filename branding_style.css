@@ -19,10 +19,28 @@ header {
     background-color: black;
     padding:0;
     height: auto;
+    position: relative;
 
 }
 
+header:before{
+    content: '';
+    width: 5em;
+    height: 5em;
+    background-color: transparent;
+    position: absolute;
+    bottom:0;
+    left:0;
+    
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid white;
+    border-right: 20px solid transparent;
+}
+
 header ul {
+    width: 70%;
+    margin: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -30,7 +48,7 @@ header ul {
     list-style: none;
     color: white;
     padding: 0;
-    margin: 0;
+    
 
 }
 
@@ -40,6 +58,8 @@ header ul li a {
     color: white;
     width: 100%;
     position: relative;
+    transition: 1s;
+    
  
 }
 
@@ -51,8 +71,12 @@ header ul li a:hover:before{
     background-color: tomato;
     position: absolute;
     bottom: 0px;
+   
     
 }
+
+
+
 
 .logocima:hover:before {
 
@@ -70,7 +94,7 @@ header ul li {
 
 header ul li a img {
     margin: .6em 0 .3em 0;  
-    width: 1.5em;
+    width: 1.3em;
  
 }
 
