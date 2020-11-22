@@ -952,15 +952,15 @@
 
         .logo-header {
         
-            width: 25em;
+            width: 20em;
      
         }
         
     
         .foto-perfil {
 
-            width: 13em;
-            margin-right: 1em;
+            width: 11em;
+            
             
         } 
         
@@ -978,7 +978,7 @@
             color: tomato;
             position: absolute;
             bottom: 0;
-            left: 68%;
+            left: 65%;
             font-family: 'Saira Condensed', sans-serif;
             line-height: 1.4em;
         }
@@ -1185,12 +1185,13 @@
 
         .logo-header {
         
-            width: 24em;
+            width: 21em;
             align-self: center;
             margin: 0;
-            
      
         }
+
+
 
         .foto-logo span {
             align-self: center;
@@ -1201,7 +1202,7 @@
     
         .foto-perfil {
 
-            width: 13em;
+            width: 11em;
             margin-left: 1em;
             margin-right: 0;
             margin-bottom: 4em;
@@ -1227,12 +1228,19 @@
             font-family: 'Saira Condensed', sans-serif;
             line-height: 1.4em;
         }
+
+        nav  {
+
+            margin: 4em;
+
+            
+        }
         
 
         nav li {
 
-            font-size: 5em;
-            text-shadow: -2px -2px 0 #ffffff, 2px -2px 0 #ffffff, -2px 2px 0 #ffffff, 2px 2px 0 #ffffff;
+            font-size: 4.5em;
+            text-shadow: -1.5px -1.5px 0 #ffffff, 1.5px -1.5px 0 #ffffff, -1.5px 1.5px 0 #ffffff, 1.5px 1.5px 0 #ffffff;
         }
 
 
