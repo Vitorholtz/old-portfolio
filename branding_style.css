@@ -162,6 +162,12 @@ input:checked ~ label .hamburger .ham3 {
 
 }
 
+.respmenu {
+
+    display:none;
+
+}
+
 
 
 main {
@@ -287,7 +293,36 @@ h3{
 
         display: none;
     }
+    
+    .respmenu {
+    
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 10em;
+        right: 7em;
+    
+      
+    }
 
+    .respmenu li {
+
+        color:white;
+        font-size: 4em;
+        z-index: 105;
+        visibility: hidden;
+       
+    }
+
+    input:checked ~ label ul li {
+
+        color: white;
+        visibility: visible;
+
+
+      
+
+    }
 
     h2 {
  
