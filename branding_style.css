@@ -296,21 +296,17 @@ h3{
         display: none;
     }
 
- 
     header ul {
 
-        display: none;
-        
+        display: none;   
     }
-
-    
-    
+ 
     .respmenu {
     
         display: flex;
         flex-direction: column;
         position: absolute;
-        top: 10em;
+        top: 15em;
         left: 15%;
   
     }
