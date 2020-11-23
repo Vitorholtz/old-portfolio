@@ -58,8 +58,7 @@ header ul li a {
     color: white;
     width: 100%;
     position: relative;
-    transition: 1s;
-    
+
  
 }
 
@@ -288,6 +287,8 @@ h3{
        height: 5em;
        position: relative;
     }
+
+
     
     header ul {
 
@@ -310,19 +311,22 @@ h3{
         color:white;
         font-size: 4em;
         z-index: 105;
-        visibility: hidden;
+        display: none;
        
     }
 
+
     input:checked ~ label ul li {
 
+        font-size: 4em;
         color: white;
-        visibility: visible;
+        z-index: 105;      
+        display: block; 
 
-
-      
 
     }
+
+ 
 
     h2 {
  
