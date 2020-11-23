@@ -402,6 +402,13 @@ h3{
 
         margin: 0;
     }
+
+    .col1 img, .col2 img {
+
+    
+        margin: 2px 0;
+     
+     }
     
     h2 {
  
