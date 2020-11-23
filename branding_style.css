@@ -17,7 +17,7 @@ header {
     
     width: 100%;
     background-color: black;
-    padding:0;
+    padding: 0;
     height: auto;
     position: relative;
 
@@ -286,6 +286,7 @@ h3{
        padding:0;
        height: 5em;
        position: relative;
+       position: fixed;
     }
 
 
@@ -315,6 +316,7 @@ h3{
        
     }
 
+ 
 
     input:checked ~ label ul li {
 
@@ -322,10 +324,9 @@ h3{
         color: white;
         z-index: 105;      
         display: block; 
-
-
     }
-
+    
+    
  
 
     h2 {
