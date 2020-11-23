@@ -20,7 +20,6 @@ header {
     padding: 0;
     height: auto;
     position: relative;
-    position: fixed;
     z-index: 200;
 
 }
@@ -95,6 +94,11 @@ header ul li a img {
     margin: .6em 0 .3em 0;  
     width: 1.3em;
  
+}
+
+header .mobilelogo{
+    display: none;
+    
 }
 
 
@@ -276,7 +280,7 @@ h3{
 
     .hamburger {
 
-        margin: 30px 30px 0 0 ;
+        margin: 30px 25px 0 0 ;
         display: block
     }
 
@@ -288,7 +292,7 @@ h3{
        padding:0;
        height: 5em;
        position: relative;
-       position: fixed;
+
     }
 
     header:before {
@@ -299,6 +303,15 @@ h3{
     header ul {
 
         display: none;   
+    }
+
+    header .mobilelogo{
+        display: block;
+        position: absolute;
+        top: 14px;
+        left: 25px;
+        width: 2.5em;
+     
     }
  
     .respmenu {
