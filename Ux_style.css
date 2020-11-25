@@ -333,16 +333,16 @@
             
           
             
-            .analise h2:nth-child(10) {
+            .analise h2:nth-child(9) {
                 
                 font-size: 4em;
                 width: 60%;
-                margin: 6em auto;
+                margin: 3em auto;
                 text-align: left;
                 position: relative;
             }  
             
-            .analise h2:nth-child(10):before{ 
+            .analise h2:nth-child(9):before{ 
                 
                 content: "?";
                 font-size: 10em;
