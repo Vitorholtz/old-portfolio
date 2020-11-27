@@ -1127,8 +1127,8 @@
 
                 .analise h2:nth-child(9) {
                 
-                    font-size: 2em;
-                    width: 90%;
+                    font-size: 3em;
+                    width: 60%;
                     margin: 5em auto 3em auto;
                     text-align: center;
                     position: relative;
@@ -1144,6 +1144,14 @@
                     z-index: -100;
              
                 }
+
+                .usuarios h2:nth-child(8), .usuarios h2:nth-child(9)  {
+                    
+                    font-size: 3em;
+                   
+                }
+                
+                
 
             
 
@@ -1359,6 +1367,15 @@
                     font-size: 10em;
              
                 }
+
+                .analise h2:nth-child(9) {
+                
+                    font-size: 2em;
+                    width: 100%;
+                    margin: 5em auto 3em auto;
+                    text-align: center;
+                    position: relative;
+                }  
 
                 .usuarios img {
 
