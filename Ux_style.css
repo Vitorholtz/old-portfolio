@@ -337,10 +337,10 @@
             
             .analise h2:nth-child(9) {
                 
-                font-size: 4em;
-                width: 60%;
+                font-size: 3em;
+                width: 50%;
                 margin: 5em auto 3em auto;
-                text-align: left;
+                text-align: center;
                 position: relative;
             }  
             
@@ -351,7 +351,7 @@
                 color: #E5ECF1;
                 position: absolute;
                 top:-.5em;
-                left: .6em;
+                left: 60%;
                 z-index: -100;
          
             }
@@ -1016,8 +1016,7 @@
             
         }
         
-        
-        
+      
             .style .desenhos {
         
             width: 70%;
@@ -1048,13 +1047,18 @@
             width: 90%;
         }
 
+        .stickhome img{
+        
+         
+            right: 1em;
+         
+        }
+
 
             }
 
-            @media only screen and (max-width: 700px) {
-
-            
-            
+            @media only screen and (max-width: 800px) {
+    
             
                 header {
             
@@ -1126,7 +1130,7 @@
                     font-size: 2em;
                     width: 90%;
                     margin: 5em auto 3em auto;
-                    text-align: left;
+                    text-align: center;
                     position: relative;
                 }  
                 
@@ -1136,15 +1140,12 @@
                     color: #E5ECF1;
                     position: absolute;
                     top:-.5em;
-                    left: .6em;
+                    left: 60%;
                     z-index: -100;
              
                 }
 
-                .benchcontainer ul, .usuarios section ul {
-                    font-size: 1.25em;
-                    padding: 0 0 0 1em;
-                }
+            
 
                 .meninacelular {
                     display: none;
@@ -1254,6 +1255,7 @@
                 h1 {
 
                     font-size: 2.5em;
+                    
                 }
 
                 h2 {
@@ -1467,5 +1469,10 @@
                         display: none;
 
                     }
+
+                    .benchcontainer ul, .usuarios section ul {
+                        font-size: 1.25em;
+                        padding: 0 0 0 1em;
+                    }
                    
-   
+                }
