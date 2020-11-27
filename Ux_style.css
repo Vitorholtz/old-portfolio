@@ -901,9 +901,7 @@
                 }
 
 
-                ul {
-                    font-size: 1em;
-                }
+               
 
                 section {
 
@@ -996,13 +994,13 @@
                 margin: 1em;
              }
 
-             .prototipo .cefr{
+            .prototipo .cefr{
                 
                 width:  70%;       
                
            }
 
-             .protrow8 {
+            .protrow8 {
 
                width: 70%;
                
@@ -1025,7 +1023,7 @@
             width: 70%;
         }
 
-        .imgunder {
+          .imgunder {
 
             width: 90%;
             transform: translate();
@@ -1143,14 +1141,15 @@
              
                 }
 
+                .benchcontainer ul, .usuarios section ul {
+                    font-size: 1.25em;
+                    padding: 0 0 0 1em;
+                }
+
                 .meninacelular {
                     display: none;
                 }
 
-
-            }
-
-        
             @media only screen and (max-width: 600px) {
 
                 body {
