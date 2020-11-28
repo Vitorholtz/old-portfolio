@@ -325,16 +325,13 @@
           
             }
             
-         
-            
+  
             .storyboard img:nth-child(2), .storyboard img:nth-child(3), .storyboard img:nth-child(5){
                 
                 width: 35%;
             }
             
-            
-          
-            
+   
             .analise h2:nth-child(9) {
                 
                 font-size: 3em;
@@ -424,9 +421,7 @@
                 text-align: left;
             }
             
-            
-            
-       
+    
             .benchcontainer ul, .usuarios section ul {
                 font-size: 1.5em;
                 color: #727D83;
@@ -440,9 +435,6 @@
 
             }
         
-            
-
-           
 
             .benchcontainer ul li,.usuarios section ul li {
                 
@@ -786,10 +778,7 @@
                 background-image: url(Imagens/Screens/tela-23.svg);
             
             }
-            
-
-            
-            
+  
             .style .moodboard {
                 
                 width: 60%;
@@ -800,12 +789,10 @@
             }
             
             .style .imgunder {
-                
-               
+      
                 position: relative;
                 z-index: -10;
-            
-               
+  
             }
 
             .style .imgunder2 {
@@ -1119,6 +1106,17 @@
                     
                 }
 
+                .storyboard img:nth-child(2), .storyboard img:nth-child(3), .storyboard img:nth-child(4), .storyboard img:nth-child(5) {
+                
+                    width: 80%;
+                }
+
+                .storyboard img:nth-child(6) {
+
+                    width: 100%;
+
+                }
+
                 .analise h2:nth-child(9) {
                 
                     font-size: 3em;
@@ -1231,7 +1229,7 @@
                 }
 
                
-                .abordagem p, .benchmark p, .usuarios p, .analise p, .idea p, .style p {
+                .abordagem p, .benchmark p, .usuarios p, .analise p, .idea p, .style p, .usabilidade p {
                 
                     text-align: left;
                     font-size: 1.25em;
@@ -1409,7 +1407,7 @@
                 
              
                 
-                   .storyboard img:nth-child(2), .storyboard img:nth-child(3), .storyboard img:nth-child(5){
+                   .storyboard img:nth-child(2), .storyboard img:nth-child(3), .storyboard img:nth-child(4), .storyboard img:nth-child(5), .storyboard img:nth-child(6){
                     
                     width: 100%;
                 }
@@ -1417,6 +1415,8 @@
                    .sketch {
                        padding: 0;
                    }
+
+            
 
                     .wireframe {
                      
