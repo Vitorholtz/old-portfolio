@@ -245,15 +245,9 @@ h3{
    flex-direction: column;
    margin: 0 4px;
    
-    
 }
 
-.col3 {
 
-    display: flex;
-    flex-direction: column;
-    margin: 0 4px;
-}
 
 .col1 img, .col2 img {
 
@@ -262,11 +256,38 @@ h3{
  
  }
 
- .col3 img {
-     
-    width: 100%;
-    margin: 4px 0;
+ footer{
+
+    height: 10em;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
  }
+
+ .icons-container {
+    height: 3em;
+    width: 15em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+ }
+
+ .fab{
+        
+    color: #949ba1;
+    font-size: 1.5em;
+    display: inline-block;
+    transition: 1s;
+
+}
+
+.fab:hover {
+
+    color: rgb(73, 73, 73);
+}
 
  @media (max-width: 1300px) {
 
