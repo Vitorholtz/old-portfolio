@@ -248,11 +248,24 @@ h3{
     
 }
 
+.col3 {
+
+    display: flex;
+    flex-direction: column;
+    margin: 0 4px;
+}
+
 .col1 img, .col2 img {
 
     width: 100%;
     margin: 4px 0;
  
+ }
+
+ .col3 img {
+     
+    width: 100%;
+    margin: 4px 0;
  }
 
  @media (max-width: 1300px) {
