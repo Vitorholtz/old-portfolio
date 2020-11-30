@@ -1,0 +1,441 @@
+@font-face {
+    font-family: BebasKai;
+    src: url(Fonts/BebasKai.ttf);
+  }
+
+  * {
+    box-sizing: border-box;
+}
+
+body{
+        
+    margin: 0;
+    width: 100%;
+}
+
+  header {
+    
+    width: 100%;
+    background-color: black;
+    padding: 0;
+    height: auto;
+    position: relative;
+    z-index: 200;
+
+}
+
+header:before{
+    content: '';
+    width: 5em;
+    height: 5em;
+    background-color: transparent;
+    position: absolute;
+    bottom:0;
+    left:0;
+    
+    width: 0;
+    height: 0;
+    border-bottom: 20px solid white;
+    border-right: 20px solid transparent;
+}
+
+header ul {
+    width: 70%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    color: white;
+    padding: 0;
+    
+
+}
+
+header ul li a {
+
+    text-decoration: none;
+    color: white;
+    width: 100%;
+    position: relative;
+
+ 
+}
+
+header ul li a:hover:before{
+
+    content: "";
+    width: 100%;
+    height: 2px;
+    background-color: tomato;
+    position: absolute;
+    bottom: 0px;
+   
+    
+}
+
+
+.logocima:hover:before {
+
+   display: none;
+
+}
+
+
+
+header ul li {
+
+    font-size: 2em;
+    font-family: BebasKai;
+}
+
+header ul li a img {
+    margin: .6em 0 .3em 0;  
+    width: 1.3em;
+ 
+}
+
+header .mobilelogo{
+    display: none;
+    
+}
+
+
+
+.hamburger {
+
+    width: 2.2em;
+    height:1.4em;
+    float: right;
+    display: none;
+    position: relative;
+    transition: .3s ease-in-out;
+    cursor: pointer;
+
+
+}
+
+.hamburger .ham{
+
+    width: 100%;
+    height: 2px;
+    margin-bottom: 8px;
+    background-color: white;
+    transition: .3s ease-in-out;
+}
+
+input {
+    display: none;
+    
+}
+
+input:checked ~ label .hamburger {
+
+    box-shadow:  0 0 0 100vw black, 0 0 0 130vh black ;
+    border-radius: 100%;
+    z-index: 100;
+}
+
+input:checked ~ label .hamburger{
+
+    transform: rotate(45deg);
+    
+}
+
+input:checked ~ label .hamburger .ham1 {
+
+    transform: rotate(90deg);
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+}
+
+input:checked ~ label .hamburger .ham2 {
+
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+
+}
+
+input:checked ~ label .hamburger .ham3 {
+
+    position: absolute;
+    bottom: 0;
+    background-color: white;
+
+}
+
+.respmenu {
+
+    display:none;
+
+}
+
+main {
+    width: 70%;
+    margin: auto;
+    padding-top: 10em;
+ 
+ }
+ 
+  .desc {
+     
+      height: 100%;
+      display: flex;
+      flex-direction: column;
+ 
+ }
+ 
+ p {
+     font-size: 2em;
+     line-height: 1.4em;
+     text-align: left;
+     width: 95%;
+     margin: 1em 0;
+     transform: translate(1.2em, 0em);
+     font-family: 'Cairo', sans-serif;
+     position: relative;
+ }
+ 
+ p:before {
+     content: "";
+         background-color: rgb(170, 170, 170);
+         height: 100%;
+         width: 1px;
+         position: absolute;
+         top: 0;
+         left:-1em;
+ }
+ 
+ h2 {
+     
+     font-family: BebasKai;
+     font-size: 10em;
+     transform: translate(-3px, 0);
+     margin: 0;
+    
+     
+ }
+ 
+ h3{
+     font-family: BebasKai;
+     font-size: 4em;
+     color: #c3c3c3;
+     margin: 0;
+     margin: -30px 0 0 0;
+   
+ }
+ 
+ .container {
+ 
+     width: 70%;
+     margin: auto;
+     display: flex;
+ 
+ }
+ 
+ .col1, .col2 {
+ 
+   
+    display: flex;
+    flex-direction: column;
+    margin: 0 4px;
+    
+ }
+ 
+ 
+ 
+ .col1 img, .col2 img {
+ 
+     width: 100%;
+     margin: 4px 0;
+  
+  }
+
+  footer{
+
+    height: 10em;
+    width: 70%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items:flex-end;
+ }
+
+ .icons-container {
+    height: 3em;
+    width: 15em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+ }
+
+ .fab{
+        
+    color: #949ba1;
+    font-size: 1.5em;
+    display: inline-block;
+    transition: 1s;
+
+}
+
+.fab:hover {
+
+    color: rgb(73, 73, 73);
+}
+
+
+  @media (max-width: 1300px) {
+
+    
+    main {
+
+        width: 80%;
+    }
+
+    .container {
+        width: 80%;
+    }
+
+    p {
+        font-size: 1.5em;
+      
+    }
+}
+
+
+
+@media (max-width:800px) {
+
+    .hamburger {
+
+        margin: 30px 25px 0 0 ;
+        display: block
+    }
+
+
+    header {
+
+       width: 100%;
+       background-color: black;
+       padding:0;
+       height: 5em;
+       position: relative;
+
+    }
+
+    header:before {
+
+        display: none;
+    }
+
+    header ul {
+
+        display: none;   
+    }
+
+    header .mobilelogo{
+        display: block;
+        position: absolute;
+        top: 14px;
+        left: 25px;
+        width: 2.5em;
+     
+    }
+ 
+    .respmenu {
+    
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 15em;
+        left: 15%;
+  
+    }
+
+    .respmenu li {
+
+        color:white;
+        font-size: 4em;
+        z-index: 105;
+        display: none;
+  
+    }
+
+
+    input:checked ~ label ul li {
+
+        font-size: 4em;
+        color: white;
+        z-index: 105;      
+        display: block;
+        
+    }
+
+    h2 {
+ 
+        font-size: 8em;
+     }
+
+     h3 {
+ 
+        font-size: 3sem;
+     }
+    
+    p {
+        font-size: 1em;
+    }
+}
+
+@media (max-width: 660px) {
+
+    main {
+        width: 95%;
+        margin: auto;
+     
+     }
+
+     p {
+         transform: none;
+     }
+
+     p:before {
+         display: none;
+     }
+
+    .container {
+
+        width:100%;
+        display: flex;
+        flex-direction: column;
+    
+    }
+
+    .col1, .col2 {
+
+        margin: 0;
+    }
+
+    .col1 img, .col2 img {
+
+    
+        margin: 2px 0;
+     
+     }
+    
+    h2 {
+ 
+       font-size: 5em;
+    }
+
+    h3 {
+ 
+        font-size: 2em;
+        margin: -15px 0 0 0  ;
+     }
+}
+
+
