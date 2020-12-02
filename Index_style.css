@@ -340,7 +340,7 @@
     .first-article:before {
         
         content: "";
-        background-color: #c1c1c1;
+        background-color: #e3e3e3;
         height: 1px;
         width: 140em;
         position: absolute;
@@ -574,7 +574,7 @@
     .second-article:before {
         
         content: "";
-        background-color: #c1c1c1;
+        background-color: #e3e3e3;
         height: 1px;
         width: 140em;
         position: absolute;
@@ -1032,7 +1032,7 @@
  
          .fab{
        
-             font-size: 2em;
+             font-size: 1.5em;
              
           
          }
@@ -1157,7 +1157,7 @@
         .fab{
         
             
-            font-size: 3em;
+            font-size: 1.5em;
          
         }
 
@@ -1267,7 +1267,7 @@
 
         .fab{
         
-            font-size: 2em;
+            font-size: 1.5em;
          
         }
 
