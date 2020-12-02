@@ -1,6 +1,5 @@
 window.onscroll = function () {
     let currentScrollPos = window.pageYOffset;
-    console.log(currentScrollPos);
     let position = 700;
 
     if (currentScrollPos >= position) {
