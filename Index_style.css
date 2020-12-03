@@ -23,7 +23,7 @@
         top: 0;
         left: 10em;
         width: 1px;
-        height: 550em;
+        height: 600em;
         background-color #e3e3e3;
         
        
@@ -759,21 +759,40 @@
         transition: width .3s;     
         
     }
-    
-    
+
+    .sites {
+
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 70%;
+        margin: 0 auto 10em auto;
+    }
+
+    .sites h1 {
+        font-family: bebas kai;
+        font-size: 12em;
+    }
+
+    .sites a {
+        align-self: center;
+        width: 30em;
+        height: 20em;
+        margin-bottom: 3em;
+        box-shadow: 10px 10px 0px 0px rgba(230,230,230,1);
+    }
+
+    .sites a img{
+        width: 100%;
+    }
     footer {
-        
-      
         height: auto;
-        
         background: rgb(0,0,0); 
         background: linear-gradient(180deg, rgba(0,0,0, 50%) 55%, rgba(30,32,34,50%) 91%), url(Imagens/fotofooter.jpg);
         background-repeat: no-repeat;
         background-position: top right;
         background-size: cover;
         position: relative;
-        
-      
     }
     
     footer:before {
@@ -930,7 +949,7 @@
    
            }
 
-        .first-article, .second-article {
+        .first-article, .second-article, .sites {
 
             width: 90%;
         }
@@ -1124,6 +1143,11 @@
           display: none;
         }
 
+        .sites h1 {
+            font-size: 8em;
+            align-self: center;
+        }
+
         footer {
 
             background-color: #111111;
@@ -1251,6 +1275,18 @@
             
             width: 30%;
             font-size: 1.2em;
+        }
+
+        .sites a {
+
+            height: 100%;
+            width: 100%;
+            box-shadow: none;
+        }
+
+        .sites h1 {
+            font-size: 4em;
+
         }
 
         footer p {
