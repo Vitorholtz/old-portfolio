@@ -766,7 +766,13 @@
         flex-direction: column;
         justify-content: center;
         width: 70%;
-        margin: 0 auto 10em auto;
+        margin: -10em auto 10em auto;
+    }
+
+    .thumbs {
+        display: flex;
+        justify-content: space-around;
+
     }
 
     .sites h1 {
@@ -774,17 +780,25 @@
         font-size: 12em;
     }
 
-    .sites a {
+    .thumbs a {
         align-self: center;
         width: 30em;
         height: 20em;
         margin-bottom: 3em;
+    }
+
+    .thumbs a:last-child {
+    
+        margin-left: 1em;
+    }
+
+    .thumbs a img{
+        width: 100%;
         box-shadow: 10px 10px 0px 0px rgba(230,230,230,1);
     }
 
-    .sites a img{
-        width: 100%;
-    }
+    
+
     footer {
         height: auto;
         background: rgb(0,0,0); 
@@ -1148,6 +1162,16 @@
             align-self: center;
         }
 
+        .thumbs a:last-child {
+    
+            margin-left: 0;
+        }
+
+        .thumbs {
+
+            flex-direction: column;
+        }
+
         footer {
 
             background-color: #111111;
@@ -1281,7 +1305,7 @@
 
             height: 100%;
             width: 100%;
-            box-shadow: none;
+    
         }
 
         .sites h1 {
