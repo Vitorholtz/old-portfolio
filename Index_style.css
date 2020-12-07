@@ -419,13 +419,8 @@
         color: white;
         
         text-shadow: -1px -1px 0 #e3e3e3, 1px -1px 0 #e3e3e3, -1px 1px 0 #e3e3e3, 1px 1px 0 #e3e3e3;
-        
-       
-            
+          
     }
-    
-  
-    
     
     
     .first-article p {
@@ -767,11 +762,13 @@
         justify-content: center;
         width: 70%;
         margin: -10em auto 10em auto;
+    
     }
 
     .thumbs {
         display: flex;
         justify-content: space-around;
+        
 
     }
 
@@ -789,7 +786,12 @@
 
     .thumbs a:last-child {
     
-        margin-left: 1em;
+        margin-left: 2em;
+    }
+
+    .thumbs a:first-child {
+    
+        margin-right: 2em;
     }
 
     .thumbs a img{
