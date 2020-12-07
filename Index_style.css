@@ -8,6 +8,7 @@
     html {
         
         scroll-behavior: smooth;
+    
     }
     
 
@@ -15,6 +16,10 @@
         
         margin: 0;
   
+    }
+
+    a {
+        color: black;
     }
     
      main .linha1{
@@ -66,8 +71,6 @@
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
-        
-    
         height: auto;
         padding-top: 10em;
         padding-bottom: 10em;
@@ -83,8 +86,7 @@
         background-color: transparent;
         position: absolute;
         bottom:0;
-        left:0;
-        
+        left:0;       
         width: 0;
         height: 0;
         border-bottom: 60px solid white;
@@ -111,10 +113,7 @@
         line-height: 1.4em;
         
     }
-    
-
-    
-    
+  
     .foto-logo span {
      
         position: relative;
@@ -784,15 +783,16 @@
         margin-bottom: 3em;
     }
 
-    .thumbs a:last-child {
+    .thumbs a:nth-child(2){
     
         margin-left: 2em;
     }
 
-    .thumbs a:first-child {
+    .thumbs a:nth-child(3){
     
-        margin-right: 2em;
+        margin-left: 2em;
     }
+
 
     .thumbs a img{
         width: 100%;
@@ -1209,6 +1209,11 @@
             
             font-size: 1.5em;
          
+        }
+
+        .thumbs a:nth-child(2){
+    
+            margin-left: 0;
         }
 
 
