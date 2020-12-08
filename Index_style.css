@@ -100,7 +100,7 @@
     
      .foto-logo:before {
         
-        content: "1992 - 2011 - 2020";
+        content: ".full-stack-designer<80%>";
         color: tomato;
         position: absolute;
         bottom: 0;
@@ -1013,7 +1013,7 @@
       
         .foto-logo:before {
         
-            content: "1992 - 2011 - 2020";
+            content: ".full-stack-designer<80%>";
             font-size: 1em;
             color: tomato;
             position: absolute;
@@ -1279,7 +1279,7 @@
       
         .foto-logo:before {
         
-            content: "1992 - 2011 - 2020";
+            content: ".full-stack-designer<80%>";
             font-size: 1.5em;
             color: tomato;
             position: absolute;
@@ -1393,7 +1393,7 @@
  
         .foto-logo:before {
         
-            content: "1992 - 2011 - 2020";
+            content: ".full-stack-designer<80%>";
             font-size: .6em;
             color: tomato;
             position: absolute;
