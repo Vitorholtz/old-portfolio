@@ -1394,7 +1394,7 @@
         .foto-logo:before {
         
             content: ".full-stack-designer<80%>";
-            font-size: .6em;
+            font-size: .7em;
             color: tomato;
             position: absolute;
             bottom: 0;
