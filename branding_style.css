@@ -260,7 +260,7 @@ h3{
 
     height: 10em;
     width: 70%;
-    margin: auto;
+    margin: 0 auto 5em auto;
     display: flex;
     justify-content: center;
     align-items:flex-end;
@@ -287,6 +287,18 @@ h3{
 .fab:hover {
 
     color: rgb(73, 73, 73);
+}
+
+
+.stickhome img{
+        
+    width: 3em;
+    visibility: hidden;
+    opacity: 0;
+    position: fixed;
+    top: 0em;
+    right: 2em;
+    transition:1s;
 }
 
  @media (max-width: 1300px) {
@@ -440,7 +452,7 @@ h3{
     .col1 img, .col2 img {
 
     
-        margin: 2px 0;
+        margin:0;
      
      }
     
@@ -454,4 +466,9 @@ h3{
         font-size: 2em;
         margin: -15px 0 0 0  ;
      }
+
+     .stickhome img{
+         
+        display: none;
+    }
 }
