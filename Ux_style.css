@@ -1098,7 +1098,7 @@
             
                 input:checked ~ label ul li {
             
-                    font-size: 4em;
+                    font-size: 3em;
                     color: white;
                     z-index: 105;      
                     display: block;
