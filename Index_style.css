@@ -8,10 +8,8 @@
     html {
         
         scroll-behavior: smooth;
-    
     }
     
-
     body {
         
         margin: 0;
@@ -30,8 +28,7 @@
         width: 1px;
         height: 600em;
         background-color #e3e3e3;
-        
-       
+    
     }
 
     .linha1{
@@ -42,8 +39,7 @@
         width: 1px;
         height: 100%;
         background-color: #e3e3e3;
-        
-       
+ 
     }
     
     .linha1:after {
@@ -797,6 +793,13 @@
     .thumbs a img{
         width: 100%;
         box-shadow: 10px 10px 0px 0px rgba(230,230,230,1);
+        transition: box-shadow .5s;
+    }
+
+    .thumbs a img:hover {
+
+        box-shadow: 10px 10px 0px 0px rgb(0, 0, 0);
+
     }
 
     

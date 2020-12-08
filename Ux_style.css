@@ -927,7 +927,7 @@
                 
                 .abordagem .logo {
                     
-                    width:8%;
+                    width:10%;
                 }
                 
                 .abordagem .abordagemimg {
@@ -1032,7 +1032,6 @@
 
         .stickhome img{
         
-         
             right: 1em;
          
         }
@@ -1082,7 +1081,7 @@
                     display: flex;
                     flex-direction: column;
                     position: absolute;
-                    top: 15em;
+                    top: 10em;
                     left: 5%;
               
                 }
@@ -1106,6 +1105,12 @@
                     
                 }
 
+                .abordagem .logo {
+                    
+                    width:15%;
+                }
+
+                
                 .storyboard img:nth-child(2), .storyboard img:nth-child(3), .storyboard img:nth-child(4), .storyboard img:nth-child(5) {
                 
                     width: 80%;
@@ -1482,6 +1487,11 @@
                     .benchcontainer ul, .usuarios section ul {
                         font-size: 1.25em;
                         padding: 0 0 0 1em;
+                    }
+
+                    .stickhome img{
+        
+                        display: none;
                     }
                    
                 }
