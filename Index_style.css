@@ -762,32 +762,24 @@
 
     .thumbs {
         display: flex;
-        justify-content: space-around;
-        
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .thumbs a {
+
+        width: 40%;
+        margin: 1em;
 
     }
+
 
     .sites h1 {
         font-family: BebasKai;
         font-size: 12em;
     }
 
-    .thumbs a {
-        align-self: center;
-        width: 30em;
-        height: 20em;
-        margin-bottom: 3em;
-    }
-
-    .thumbs a:nth-child(2){
-    
-        margin-left: 2em;
-    }
-
-    .thumbs a:nth-child(3){
-    
-        margin-left: 2em;
-    }
+  
 
 
     .thumbs a img{
@@ -1172,10 +1164,6 @@
             margin-left: 0;
         }
 
-        .thumbs {
-
-            flex-direction: column;
-        }
 
         footer {
 
@@ -1293,10 +1281,8 @@
 
             margin: 4em;
 
-            
         }
         
-
         nav li {
 
             font-size: 4.5em;
@@ -1321,6 +1307,11 @@
         .sites h1 {
             font-size: 4em;
 
+        }
+
+        .thumbs a {
+
+            margin: 1em 0;
         }
 
         footer p {
