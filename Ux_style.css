@@ -182,13 +182,14 @@
                 
                 width: 75%;
                 display: flex;
+                
              
                
             } 
             
             .primeirodesenho img {
         
-                width: 100%;     
+                width: 50%;     
             }
             
             .logodesc {
